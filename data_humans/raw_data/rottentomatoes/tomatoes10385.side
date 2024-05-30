@@ -1,0 +1,137 @@
+{
+  "id": "d259051e-9706-4bcd-b6ce-6cc92a5544bf",
+  "version": "2.0",
+  "name": "tomatoes10385",
+  "url": "https://www.rottentomatoes.com/",
+  "tests": [{
+    "id": "5ddb2d11-cdaf-42d0-8011-61b5b40f1a67",
+    "name": "Untitled",
+    "commands": [{
+      "id": "ca58b765-717d-4044-b436-eb6a88c5791b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rottentomatoes.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "777f95ff-ff0d-45f6-8581-dbe0a1b59fd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "763f64bf-ed2f-4008-87e0-3d20a97b745e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_4ao5eF8B",
+      "targets": [
+        ["css=.\\_4ao5eF8B", "css:finder"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c45473d2-1eab-4340-a8fd-79937d4db4e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4518823e-b140-4e34-bb1b-483b63e39427",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c6c0a1-83f0-4fae-80f7-4281231b0717",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#spotlight1 img",
+      "targets": [
+        ["css=#spotlight1 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://resizing.flixster.com/cMh5WGYJsQ9T3l2BsuRecRvFEyk=/540x610/v2/https://images.fandango.com/cms/assets/cf7930c0-09a3-11ef-9cd3-0ba10eb10e8f--emilyinparis.jpg')]", "xpath:img"],
+        ["xpath=//a[@id='spotlight1']/editorial-spotlight-tile/img", "xpath:idRelative"],
+        ["xpath=//a[9]/editorial-spotlight-tile/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333e5847-c281-42ec-96e8-5daaf0c14c37",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "monty python and the ho"
+    }, {
+      "id": "aedd910b-839e-416c-bf64-7da3fa746601",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) search-algolia-results-item-deprecated",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) search-algolia-results-item-deprecated", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item-deprecated", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item-deprecated", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de22e985-6dd3-4179-b3e6-ca7b0dae5808",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,365.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3459db1a-93ee-432c-97f4-f66c68917009",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > rt-tab",
+      "targets": [
+        ["css=a:nth-child(5) > rt-tab", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/section/nav/modules-navigation-carousel/a[4]/rt-tab", "xpath:idRelative"],
+        ["xpath=//a[4]/rt-tab", "xpath:position"],
+        ["xpath=//rt-tab[contains(.,'Cast & Crew')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1efdbc38-db30-4ef0-be3c-97d3f46923c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb5690e7-a933-4883-8747-b6e99b270875",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ddb2d11-cdaf-42d0-8011-61b5b40f1a67"]
+  }],
+  "urls": [],
+  "plugins": []
+}

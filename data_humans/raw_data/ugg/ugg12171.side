@@ -1,0 +1,107 @@
+{
+  "id": "d3c36487-fa8a-44eb-9e0a-1efcb47b6293",
+  "version": "2.0",
+  "name": "ugg12171",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "a77cc166-5a21-4ace-826c-0008836c2477",
+    "name": "ugg12171",
+    "commands": [{
+      "id": "8fd913e6-c386-41f4-a852-4da21536c452",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5edf73a1-1cc2-4b88-9ab6-f2079d34b354",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "896x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09c1b2ce-9891-4d83-8ea2-3ab495b9409a",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ef1a0bd-9f1e-43e5-a9e0-000597354c67",
+      "comment": "",
+      "command": "type",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.react-autosuggest__container--open > #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kled"
+    }, {
+      "id": "0181f1ae-5d32-4ca2-9660-38d5789985ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 > .render-suggestion",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 > .render-suggestion", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3fde60c-49b7-4719-b0a0-78e283b7c899",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_MOBILE_SMALL__MOBILE_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_MOBILE_SMALL__MOBILE_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67f8f1a-7fd7-48fc-b67c-93643771a25f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav-container:nth-child(1) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(1) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38870769-7e2f-4b7e-bad4-fa50f225a6df",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav-container:nth-child(1) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(1) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28594d1b-7837-41dc-afc0-219f60b8f128",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a77cc166-5a21-4ace-826c-0008836c2477"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

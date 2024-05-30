@@ -1,0 +1,4 @@
+14 | https://python.org/events/
+29 | https://python.org/events/python-user-group/1719/
+34 | https://python.org/events/python-user-group/1719/
+37 | https://python.org/events/python-user-group/1719/

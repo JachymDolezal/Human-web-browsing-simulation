@@ -1,0 +1,143 @@
+{
+  "id": "491336ea-68ec-43ab-9f96-fb4d4e386ccc",
+  "version": "2.0",
+  "name": "https://u.gg/lol/champions",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "550185fa-c131-4faa-bdaa-6397cf0de278",
+    "name": "lol",
+    "commands": [{
+      "id": "19153beb-4c08-4f02-93be-5e25016fef89",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a78d705-2c23-46b2-850f-997a77b8eb69",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1540x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "364bc610-abbb-4465-91b9-c0b60690e731",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fc-cta-consent",
+      "targets": [
+        ["css=.fc-cta-consent", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Consent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a807e03-3a2f-4f36-beed-f686db1e76ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,97)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76c05e4a-5037-4ce5-8b9d-33399f38ad90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-link:nth-child(66) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(66) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[66]/div", "xpath:idRelative"],
+        ["xpath=//a[66]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5a7c40-9ca4-4011-b15c-1c6b746979c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf74c50f-1dd7-4d0c-b6f6-da03efd2bdd3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c39dda5e-0ac7-4dfd-aace-70f3304cc55d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "46504108-95d7-474e-83ad-a8b5bf5726fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7415ba-8419-411a-8b7e-7048fcbc5b92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fac7556-6bdc-4697-a303-ffcfe64438ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05d5dced-7e41-4b0a-94cf-971ab4172152",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.best-win-rate:nth-child(1) > .col-2",
+      "targets": [
+        ["css=.best-win-rate:nth-child(1) > .col-2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9cc422a-75be-4501-ad86-b7efd987332a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.best-win-rate:nth-child(1) > .col-2",
+      "targets": [
+        ["css=.best-win-rate:nth-child(1) > .col-2", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div/div[2]/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b272f6-3ab1-4018-a170-ee5089f548f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e258dac-1625-4df9-a2b4-2bf2ab5d88cc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["550185fa-c131-4faa-bdaa-6397cf0de278"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

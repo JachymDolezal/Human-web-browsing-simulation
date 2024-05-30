@@ -1,0 +1,236 @@
+{
+  "id": "98da9847-7ea0-45c2-a29e-aa37e8e9497f",
+  "version": "2.0",
+  "name": "https://u.gg/lol/champions",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "3f646ef8-dcdc-45a6-bbae-456b3ba5868e",
+    "name": "ugg152316",
+    "commands": [{
+      "id": "01475d19-1991-44e7-bbe5-f2a1d45c0799",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03be931c-5c1d-4c18-9822-c6fa0480501a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfd6600d-f24c-46c2-9dba-a4a09c60c9e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-47sehv > span",
+      "targets": [
+        ["css=.css-47sehv > span", "css:finder"],
+        ["xpath=//div[@id='qc-cmp2-ui']/div[2]/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9314c4c1-6d4c-4596-82a7-9b215f5cf4e2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.champion-link:nth-child(6) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(6) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[6]/div", "xpath:idRelative"],
+        ["xpath=//a[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03b7349f-e105-4a8b-a492-1ef3f33f6978",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.champion-link:nth-child(6) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(6) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[6]/div", "xpath:idRelative"],
+        ["xpath=//a[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea5c7e3f-8a37-4013-8871-67fe32c6372b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39490b61-f92f-4eb8-b63c-d2664bdaa178",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,440)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06b6e3c5-0135-431d-bbe7-e9724bc9a9fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1750)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b597a62e-e152-4464-be08-e5d9ce412b40",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40a1bab7-142d-46b7-bfb5-0284e3cc860f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-link:nth-child(66) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(66) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[66]/div", "xpath:idRelative"],
+        ["xpath=//a[66]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3563766-d163-42b7-a848-279fb25e5e4b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff674d1c-4813-4a32-acf7-155e2b9ce613",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58cd936f-1d10-4449-b855-bcff2f9a86a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,463)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89bb1ba3-57ac-42f2-b7d7-034829b9b9f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,162)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb3c3bac-7e48-4efa-86c1-6bcf7b15750a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,462)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "557436cc-d7f6-49ba-bfeb-ad69f5d5c55c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.champion-matchup:nth-child(1) img",
+      "targets": [
+        ["css=.champion-matchup:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Poppy']", "xpath:img"],
+        ["xpath=//div[@id='toughest-matchups']/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b2bacec-5b1e-4699-907d-f4e29b41701e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.champion-matchup:nth-child(1) img",
+      "targets": [
+        ["css=.champion-matchup:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Poppy']", "xpath:img"],
+        ["xpath=//div[@id='toughest-matchups']/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25877efb-a0d6-4e01-b30c-2bd240ed08d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content-section_header > .content-section_blurb",
+      "targets": [
+        ["css=.content-section_header > .content-section_blurb", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'These champions counter Kled')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36ac3ee-f19f-4613-95c6-56d8ddd1c45d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content-section_header > .content-section_blurb",
+      "targets": [
+        ["css=.content-section_header > .content-section_blurb", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'These champions counter Kled')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73262ab6-bbf2-4ba5-9d7f-b645ad503d1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,462)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a99735bc-febc-44b6-a12f-66828e8bf21f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "24,122.8125"
+    }, {
+      "id": "ee8c893f-4c30-4404-981c-4951ec94b2c1",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "24,122.8125"
+    }, {
+      "id": "7bd8438d-d742-4fc4-bfbc-7634ff62bb42",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "24,122.8125"
+    }]
+  }],
+  "suites": [{
+    "id": "165aba51-f2eb-4ee5-8543-0d03718bf18a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3f646ef8-dcdc-45a6-bbae-456b3ba5868e"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

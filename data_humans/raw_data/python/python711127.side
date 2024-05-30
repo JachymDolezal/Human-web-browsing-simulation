@@ -1,0 +1,89 @@
+{
+  "id": "063cd3c6-3e02-4e8c-95f6-31a78f53268c",
+  "version": "2.0",
+  "name": "python 711127",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "74d73c8a-ebbd-42fc-a54f-834ff99beaa4",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b1fed462-f822-4329-bfe1-555a9c7a3d67",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7f0083b-7243-4981-a0a4-309b69683ea9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1013",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b16a5c16-b765-43e4-936d-29f8718333fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "053ed947-b4d8-467d-9dc4-a5794cd855cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Django Girls Groningen",
+      "targets": [
+        ["linkText=Django Girls Groningen", "linkText"],
+        ["css=li:nth-child(14) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Django Girls Groningen')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[14]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1719/')]", "xpath:href"],
+        ["xpath=//li[14]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Django Girls Groningen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c827a0b-5f25-4dfc-aa11-62bfce6fc6da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text",
+      "targets": [
+        ["css=.text", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/article", "xpath:idRelative"],
+        ["xpath=//article", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c91b0b1-6661-4f4d-8e8a-b803e0cd6f65",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "030005c5-cd49-4fe4-9573-94da7cf7d663",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74d73c8a-ebbd-42fc-a54f-834ff99beaa4"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

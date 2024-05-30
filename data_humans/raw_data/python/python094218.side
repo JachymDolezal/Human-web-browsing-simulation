@@ -1,0 +1,103 @@
+{
+  "id": "fe59d4e9-3dd4-4138-87ef-911fe4b4313b",
+  "version": "2.0",
+  "name": "python094218",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "edb0606e-3a49-4714-a6c0-680b3e2bd1ee",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4a6e6694-e1bf-4c21-9b06-75bd64fecef9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "266e4a6f-70d9-485a-ae2f-e10bf9308718",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1614x874",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94f7ae11-e73f-494b-a3b0-ce689caa23dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#container > .element-7 .element-1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Python Events')])[3]", "xpath:link"],
+        ["xpath=//ul[@id='container']/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/events/python-events/')])[5]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60634af8-733b-44ea-9219-d45a841cd888",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > p",
+      "targets": [
+        ["css=li:nth-child(5) > p", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]/p", "xpath:idRelative"],
+        ["xpath=//li[5]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a69410-bc0a-48c2-b3ed-762fd48a4637",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) time",
+      "targets": [
+        ["css=li:nth-child(5) time", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]/p/time", "xpath:idRelative"],
+        ["xpath=//li[5]/p/time", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c496d38-86a0-479c-89df-1b4da0c79f9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > .event-title",
+      "targets": [
+        ["css=li:nth-child(5) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]/h3", "xpath:idRelative"],
+        ["xpath=//li[5]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ee35e7-5835-41ea-9213-12388e51c3fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdd2865f-09d4-42c3-816a-00d16f1f646f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "de291b5b-c5b3-4c3b-9357-19e0deedf2db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["edb0606e-3a49-4714-a6c0-680b3e2bd1ee"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

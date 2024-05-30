@@ -1,0 +1,170 @@
+{
+  "id": "17bc8470-6d5b-4f02-b03f-6d9ced7485a9",
+  "version": "2.0",
+  "name": "jerry",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "cb53ae3b-5d10-47bd-b4ed-82679915d833",
+    "name": "wikipedia221120",
+    "commands": [{
+      "id": "c9f5965d-27b9-4564-a27f-d774a163f25a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3e8dec1-3e40-4c09-a552-3cc8c2f8e9f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1030x994",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "334bf622-24be-41bd-a68a-df9372f066db",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22e66ccc-0350-45ff-ba39-06499a1927b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Vaclav Havel"
+    }, {
+      "id": "7c1dc5cd-c9da-454b-8f3a-52ec69b057ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .suggestion-title",
+      "targets": [
+        ["css=.active .suggestion-title", "css:finder"],
+        ["xpath=//div[@id='typeahead-suggestions']/div/a/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Václav Havel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ffb43d-c266-4d1f-9805-92f9488b375a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-content-ltr > p:nth-child(4)",
+      "targets": [
+        ["css=.mw-content-ltr > p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel působil v 60. letech 20. století v Divadle Na zábradlí, kde jej také proslavily hry Zahradní slavnost (1963) a Vyrozumění (1965). V době kolem pražského jara se zapojil do politické diskuse a prosazoval zavedení demokratické společnosti. Po násilném potlačení reforem vojenskou invazí států Varšavské smlouvy byl postižen zákazem publikovat a stal se jedním z prominentních disidentů, kritiků tehdejšího normalizačního režimu. Vystupoval na obranu politických vězňů a stal se spoluzakladatelem a jedním z prvních mluvčích občanské iniciativy za dodržování lidských práv Charta 77. To upevnilo jeho mezinárodní prestiž, ale také mu vyneslo celkem asi pět let věznění. V této době napsal kromě dalších divadelních her také vlivné eseje, například Moc bezmocných (1978).')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f290b0e-d54b-4e80-80a0-6842b5927b3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "593a52c7-f431-4ddd-bb29-8437db13ad6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a080cc9-a39b-4b60-a258-6723ff33de61",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b5433e-1fd2-4355-884a-a2d8cc765945",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aadf30a-9016-4cd5-bcf6-1cfb9b93a420",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(12)",
+      "targets": [
+        ["css=p:nth-child(12)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[6]", "xpath:idRelative"],
+        ["xpath=//p[6]", "xpath:position"],
+        ["xpath=//p[contains(.,'Jako literát Havel debutoval v roce 1955 v časopise Květen. Až do roku 1969, kdy mu bylo publikování v Československu zakázáno, uveřejňoval své texty v periodikách Divadelní noviny, Divadlo, Host do domu, Literární noviny, Sešity pro mladou literaturu (Sešity pro literaturu a diskusi), Tvář a Zítřek.[9]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73fb26e7-1e76-4528-8387-cc89d6e1eeb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frb-form-wrapper > .frb-icon-btn",
+      "targets": [
+        ["css=.frb-form-wrapper > .frb-icon-btn", "css:finder"],
+        ["xpath=//div[@id='centralNotice']/div[4]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b6220e-5e3f-413d-9752-4a104bfc5c08",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c04480d4-932d-4e3e-92e6-7935e37d5158",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cb53ae3b-5d10-47bd-b4ed-82679915d833"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

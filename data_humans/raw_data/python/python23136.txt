@@ -1,0 +1,17 @@
+7 | https://www.python.org/
+7 | https://www.python.org/
+9 | https://www.python.org/search/?q=Netherlands&submit=
+15 | https://www.python.org/
+28 | blog.python.org/
+55 | blog.python
+61 | https://python.org/events/python-user-group/1755/
+62 | https://www.python.org/
+67 | https://www.python.org/events/python-user-group/1757/
+68 | https://www.python.org/
+69 | https://www.python.org/events/python-user-group/1711/
+72 | https://www.python.org/
+73 | https://www.python.org/events/python-user-group/1760/
+74 | https://www.python.org/
+75 | https://www.python.org/events/python-user-group/1758/
+80 | https://www.python.org/events/python-events/
+84 | https://www.python.org/events/python-events/

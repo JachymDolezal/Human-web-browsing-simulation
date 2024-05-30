@@ -1,0 +1,176 @@
+{
+  "id": "7acd5aae-ef9e-48da-8892-24ed3e7590e7",
+  "version": "2.0",
+  "name": "Jája",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "10d97f6f-5320-452c-876f-796245b7113f",
+    "name": "wikipedia14193",
+    "commands": [{
+      "id": "14a7de2f-5837-41ce-9740-8ecd75f07298",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbd08395-503f-4105-aadc-d0bdd2c292bc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x896",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef69a210-d0c8-4282-a465-7c6381075293",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b03b27-20d8-486d-943a-4c56b87e3096",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Vácalv Havel "
+    }, {
+      "id": "3a604669-3dab-45c9-9816-5f6cc2213cfc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "72dbb565-2540-4e44-9be9-7b43dcf9f0c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-search-result:nth-child(1) .mw-search-result-heading .searchmatch:nth-child(2)",
+      "targets": [
+        ["css=.mw-search-result:nth-child(1) .mw-search-result-heading .searchmatch:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div[3]/div[4]/ul/li/table/tbody/tr/td[2]/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Havel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72b9b72-1acb-40c4-a432-7facca816e71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frb-step-1 > .frb-icon-btn",
+      "targets": [
+        ["css=.frb-step-1 > .frb-icon-btn", "css:finder"],
+        ["xpath=//form[@id='frb-form']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59aa8fde-af55-45e8-a44f-a77c34706bc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb36b5ee-b89e-4c56-85f1-7ac682df4d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce2f800-6d70-437f-8324-230d350f34ce",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c667b2-67d3-4ef5-9992-3f23c513ebc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a79261b-e75a-4703-827a-718151334a16",
+      "comment": "",
+      "command": "click",
+      "target": "id=weava-root",
+      "targets": [
+        ["id=weava-root", "id"],
+        ["css=#weava-root", "css:finder"],
+        ["xpath=//app-weava-root[@id='weava-root']", "xpath:attributes"],
+        ["xpath=//app-weava-root", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d3ed35-7ac5-4da9-bfa1-475c98bd8331",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "711ec4d5-9ea0-4cdb-b89b-f7544f694fae",
+    "name": "Python",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "c58f21e2-dad0-4846-ba7a-121a658792fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["10d97f6f-5320-452c-876f-796245b7113f"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

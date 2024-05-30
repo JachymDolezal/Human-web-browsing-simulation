@@ -1,0 +1,65 @@
+{
+  "id": "b84c4095-7603-4407-8d4a-ae2efc2e4cba",
+  "version": "2.0",
+  "name": "hello",
+  "url": "https://www.python.org/",
+  "tests": [{
+    "id": "ee6e946e-4e5a-48ca-8d93-cf788b991e6b",
+    "name": "wikipedia170825",
+    "commands": [{
+      "id": "8b5696b3-a177-48f8-8ee4-eeccaf45a10d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.python.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4014bb80-d04a-46c4-8834-99825ccba933",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb7a151-6f84-4297-b794-dc7b53f12780",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f746bdd-1717-401d-8cfe-665c81a6fea6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyGrunn 2024",
+      "targets": [
+        ["linkText=PyGrunn 2024", "linkText"],
+        ["css=li:nth-child(3) > .event-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyGrunn 2024')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[3]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/1741/')]", "xpath:href"],
+        ["xpath=//li[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12744574-1825-4d21-9598-a051c0f01b2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

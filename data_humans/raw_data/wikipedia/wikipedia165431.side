@@ -1,0 +1,272 @@
+{
+  "id": "c3f506ae-d567-489e-a035-b0d6e1e77633",
+  "version": "2.0",
+  "name": "https://www.wikipedia.org/",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "55cafaed-bfee-48f2-89f3-be6b5a31d08b",
+    "name": "wikipedia165431",
+    "commands": [{
+      "id": "65da973e-4634-410f-a6fb-449f8b30fd15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9960504-41d8-4def-9017-3420d1943ccc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab7c6956-0518-4820-ae10-619f06d783c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.svg-search-icon",
+      "targets": [
+        ["css=.svg-search-icon", "css:finder"],
+        ["xpath=//form[@id='search-form']/fieldset/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "851692f5-3f7d-42a9-a438-25bb8c8589f1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.svg-search-icon",
+      "targets": [
+        ["css=.svg-search-icon", "css:finder"],
+        ["xpath=//form[@id='search-form']/fieldset/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e27594-409e-41b4-948b-0286d73058f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Václav Havel"
+    }, {
+      "id": "aed1cabe-117b-40a7-ab5f-ec1a770f319f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .suggestion-title",
+      "targets": [
+        ["css=.active .suggestion-title", "css:finder"],
+        ["xpath=//div[@id='typeahead-suggestions']/div/a/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Václav Havel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fef9b55-35ee-42f4-a91d-2d14c6dc238c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1352)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a7c5d66-7cb8-4505-b9a8-7fba5e4a6b2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1539)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c90143c-ea1e-4ee1-9559-6f5bba09b788",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2752)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "115186a2-f428-492d-b9b8-8e1fcabdf746",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4011)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3955cf8b-7677-4c2e-85d7-0f9dc86b1243",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5271)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "255de7a9-1650-4970-9b7b-55d3bc6f37b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6343)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b996089-4128-4558-81f7-c34e93533486",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6763)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bf51f60-27ca-4444-b467-b65a3a400b39",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7719)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "622e70e7-a461-40b3-a588-88affe627eed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6949)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883a9c50-1910-448e-be38-8cdb0dfe8461",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7929)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b210aa76-6b2c-4e88-b76d-b2dc262720f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8023)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "437b4730-5352-44ba-9408-6132178055f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8652)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362028e3-82df-4792-b8d6-f1a66ebb243b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9258)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88c64eb6-8efe-4eba-95ab-d13eddc0505c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10004)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd5976a-a3cc-4ff7-a6ea-3132328f59fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vector-column-start",
+      "targets": [
+        ["css=.vector-column-start", "css:finder"],
+        ["xpath=//body/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ed4f4ff-f193-4e98-96f7-f090be1a2c93",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,989)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59e81cdc-f78f-4de4-8594-9d7a24b0ae90",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f003a08-78fe-48e9-a1ce-613c4948e9f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e7f0d46-ec5b-43aa-8876-c14e43d329cc",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6794e391-7e7e-44cb-a1da-a6a83a1bedfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dadaa6f6-7d1a-4ca8-ac0b-ef758fe3d80e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa20ebc6-08d3-4b10-abf9-e0d7376e4829",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e992ce0b-3b7f-4468-85d6-c3d1d1e16202",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55cafaed-bfee-48f2-89f3-be6b5a31d08b"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

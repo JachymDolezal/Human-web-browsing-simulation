@@ -1,0 +1,11 @@
+20 | https://www.wikipedia.org/
+34 | https://www.wikipedia.org/
+39 | https://www.wikipedia.org/
+40 | https://en.wikipedia.org/wiki/Special:Search?go=Go&search=Vacalv+Havel&ns0=1
+42 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+46 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+89 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+98 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+103 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+102 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+104 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel

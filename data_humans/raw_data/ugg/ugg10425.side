@@ -1,0 +1,115 @@
+{
+  "id": "946ef546-75c5-499f-8265-b7c038c6033d",
+  "version": "2.0",
+  "name": "ugg10425",
+  "url": "https://u.gg/lol/champions",
+  "tests": [{
+    "id": "ab93e90b-e496-4853-b084-d0d1ff225b89",
+    "name": "Untitled",
+    "commands": [{
+      "id": "fa0ac1cc-4b02-46ea-a172-9583159aecb6",
+      "comment": "",
+      "command": "open",
+      "target": "https://u.gg/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "134c2a55-93aa-4d49-8cfa-6bfce4dc0bca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "641ab6ee-682e-471f-8bc3-5011f3f54f43",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc9f0e1-ddee-4219-9db4-8dca01dfbee9",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='content-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd4308e-3059-4a4b-ad4a-b95806315251",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-link:nth-child(66) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(66) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[66]/div", "xpath:idRelative"],
+        ["xpath=//a[66]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2c98d1e-bf03-412a-9016-9aa9c1019c1a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(5) > svg",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(5) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51051cc-613c-4cf3-9ef7-f81030f037d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3e9f83-1d69-4418-a528-dd5af8fe5c27",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d963f67-d97b-4d5b-8724-eceb0bd0b2fe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e6221027-6257-477d-afed-8568b14d10d1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab93e90b-e496-4853-b084-d0d1ff225b89"]
+  }],
+  "urls": [],
+  "plugins": []
+}

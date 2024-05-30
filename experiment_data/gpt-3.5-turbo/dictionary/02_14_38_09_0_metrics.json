@@ -1,0 +1,101 @@
+{
+    "exit": false,
+    "goal_complete": false,
+    "action_count": 7,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 6,
+        "Exit": 0,
+        "Retrieve": 0
+    },
+    "simulation_length": 78.07544684410095,
+    "average_time_per_action": 11.153635263442993,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find the definition of a Fungus.",
+                "Action": "use a search bar",
+                "Action_Context": "Fungus"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/",
+            "epoch_timestamp": 1714653407.200283
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/english/fungus?q=Fungus",
+            "epoch_timestamp": 1714653415.674207
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/",
+            "epoch_timestamp": 1714653444.051828
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/",
+            "epoch_timestamp": 1714653454.863717
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/",
+            "epoch_timestamp": 1714653464.865673
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/",
+            "epoch_timestamp": 1714653475.45607
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the link for 'Dictionary' to find the definition of a Fungus.",
+                "Action": "click on link/button",
+                "Action_Context": "Dictionary"
+            },
+            "goal": "Find definition of a Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/",
+            "epoch_timestamp": 1714653485.27573
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

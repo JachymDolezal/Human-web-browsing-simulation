@@ -1,0 +1,2 @@
+8 | https://www.python.org/events/
+19 | https://www.python.org/events/python-user-group/1756/

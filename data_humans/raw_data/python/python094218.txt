@@ -1,0 +1,5 @@
+8 | https://www.python.org/events/python-events/
+14 | https://www.python.org/events/python-events/
+16 | https://www.python.org/events/python-events/
+17 | https://www.python.org/events/python-events/
+18 | https://www.python.org/events/python-events/

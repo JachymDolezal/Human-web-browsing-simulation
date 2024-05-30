@@ -1,0 +1,98 @@
+{
+  "id": "cc967cea-3a05-488f-956a-c4fe38ba1983",
+  "version": "2.0",
+  "name": "https://dictionary.cambridge.org/",
+  "url": "https://dictionary.cambridge.org",
+  "tests": [{
+    "id": "543e6cc9-4100-4ad0-9655-9de7f0322116",
+    "name": "cambridge151916",
+    "commands": [{
+      "id": "3a621cca-032a-480f-a392-a4e0aa46b277",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d96a064-fe2d-448a-98c6-c608feb26661",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35c852d8-03a4-4849-af37-d4210db4b2a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e48e05d-3a9c-4573-9d2e-fffc143286ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04530f04-923a-4a90-86d1-1a31f66850a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "45645418-de93-4c8b-b386-971e8f8642b5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e35cf964-dbef-447e-a0e0-511bc9f2e3ce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,203)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e976cfaa-05a6-4276-a78b-c67916ebabfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["543e6cc9-4100-4ad0-9655-9de7f0322116"]
+  }],
+  "urls": ["https://dictionary.cambridge.org/"],
+  "plugins": []
+}

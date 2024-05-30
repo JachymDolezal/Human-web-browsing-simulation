@@ -1,0 +1,98 @@
+{
+  "id": "fed9eda7-760e-421c-9414-24b05ae3d2be",
+  "version": "2.0",
+  "name": "https://www.rottentomatoes.com/",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "a8c52560-3cc6-4cd1-88c0-ae93430c5a44",
+    "name": "Antonín_Tomatoes_0912",
+    "commands": [{
+      "id": "a3f7181b-7099-4e2c-9f5a-3eb75e6a47f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04d31e12-d3ba-4427-a5fd-6e5c304c1ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1098x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e2ba125-b10d-46aa-aed3-98dbdecccd85",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-reject-all-handler",
+      "targets": [
+        ["id=onetrust-reject-all-handler", "id"],
+        ["css=#onetrust-reject-all-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-reject-all-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Reject All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b93581c-0c6b-4770-b7e4-eec8a22658a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5948967d-c87b-4dbf-8a80-ec75f7a67d85",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Monthy Python and the hol"
+    }, {
+      "id": "36930043-564e-4d10-981b-6b0b56fd14d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) search-algolia-results-item",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) search-algolia-results-item", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4beb4591-96be-48e2-ade8-b4cafe8aa083",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,112.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01baf98e-4282-4823-9b5d-688a48d3b4e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "977afd90-2637-4fd4-ad22-3f6887c7f13c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8c52560-3cc6-4cd1-88c0-ae93430c5a44"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

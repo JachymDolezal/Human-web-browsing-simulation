@@ -1,0 +1,88 @@
+{
+  "id": "98cb68eb-876b-4d2b-91e9-9084f7d2fdbf",
+  "version": "2.0",
+  "name": "cambridge10305",
+  "url": "https://dictionary.cambridge.org",
+  "tests": [{
+    "id": "5f07feae-10a9-426a-8cbc-230c1902b196",
+    "name": "test",
+    "commands": [{
+      "id": "46cf6ce8-a5d6-4a86-9b7e-db4fb9748607",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6e39d6-3c0f-4fb1-bf19-6f20d1da0d87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbbab039-0220-417c-895d-10930243c7e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//div[2]/button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "012a31cf-351a-4afd-b4fb-5135f609b135",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20180029-745b-4eea-bcdf-8d2d3f4e6874",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "942cd061-af8d-45ba-888d-9339342d85d7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "932662b8-3032-4719-a11e-4606bc1cb2a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://dictionary.cambridge.org/"],
+  "plugins": []
+}

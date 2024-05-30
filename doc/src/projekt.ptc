@@ -1,0 +1,68 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Related work}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Web prediction and web agents}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Human simulation techniques}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Theoretical Background}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Transformers}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}How Transformers work?}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}History of Transformer models}{8}{subsection.3.1.2}%
+\contentsline {subsubsection}{GPT}{8}{section*.2}%
+\contentsline {subsubsection}{BERT}{9}{section*.3}%
+\contentsline {subsubsection}{GPT-2}{9}{section*.4}%
+\contentsline {subsubsection}{RoBERTa}{10}{section*.5}%
+\contentsline {subsubsection}{GPT-3}{10}{section*.6}%
+\contentsline {subsubsection}{LLaMA and open source models}{10}{section*.7}%
+\contentsline {subsubsection}{GPT-3.5}{10}{section*.8}%
+\contentsline {subsubsection}{Mistral 7B}{11}{section*.9}%
+\contentsline {section}{\numberline {3.2}Large Language Models overview}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Web Interaction Technologies and LLM Integration}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Web Automation and Interaction}{12}{subsection.3.3.1}%
+\contentsline {subsubsection}{DOM}{13}{section*.10}%
+\contentsline {subsubsection}{Selenium}{13}{section*.11}%
+\contentsline {subsubsection}{Puppeteer}{13}{section*.12}%
+\contentsline {subsection}{\numberline {3.3.2}Large Language Model Integration}{13}{subsection.3.3.2}%
+\contentsline {subsubsection}{Semantic Kernel}{14}{section*.13}%
+\contentsline {subsubsection}{LangChain}{14}{section*.14}%
+\contentsline {chapter}{\numberline {4}Design and Architecture}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Objectives and Components}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architecture}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Virtual Web Browser}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Web Controller}{16}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Decision Making Model}{16}{subsection.4.2.3}%
+\contentsline {subsubsection}{Interactions}{17}{section*.15}%
+\contentsline {subsubsection}{Output Format}{17}{section*.16}%
+\contentsline {section}{\numberline {4.3}Scope}{17}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Implementation}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Configuration}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Web parsing}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.3}LLM Chains}{22}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Decision chain}{22}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Action chains}{23}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}LLM provider}{23}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Selenium controller}{23}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Logger}{24}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Challenges}{24}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Experiments and Testing}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Website selection}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Benchmarks}{25}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Configuration}{26}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Output}{26}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Human Data collection}{27}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Experiments}{28}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Success rate}{28}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Comparison on metrics with human data}{29}{subsection.6.4.2}%
+\contentsline {subsubsection}{Simulation time comparison}{29}{section*.17}%
+\contentsline {subsubsection}{Action count}{29}{section*.18}%
+\contentsline {subsubsection}{Time for action}{31}{section*.19}%
+\contentsline {subsection}{\numberline {6.4.3}Evaluation of Web navigation}{31}{subsection.6.4.3}%
+\contentsline {subsubsection}{Wikipedia.org}{31}{section*.20}%
+\contentsline {subsubsection}{U.gg}{33}{section*.21}%
+\contentsline {subsubsection}{Python.org}{35}{section*.22}%
+\contentsline {subsubsection}{Dictionary.cambridge.org}{37}{section*.23}%
+\contentsline {subsubsection}{Rottentomatoes.com}{39}{section*.24}%
+\contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}%
+\contentsline {chapter}{Bibliography}{43}{chapter*.25}%
+\ttl@starttoc {chapters@1}
+\contentsline {chapter}{\numberline {A}Contents of the included storage media}{46}{appendix.A}%
+\contentsfinish 

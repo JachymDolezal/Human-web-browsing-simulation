@@ -1,0 +1,139 @@
+{
+  "id": "e5e851f3-1944-4116-9808-a3abd7368114",
+  "version": "2.0",
+  "name": "jerry",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "f0d728ae-6388-4c98-beba-86c2552509f9",
+    "name": "python",
+    "commands": [{
+      "id": "353e239a-5a9c-4b9c-af99-767c1e782136",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3bbf093-7640-473b-bc5b-82f589e14f78",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc35b940-4a7d-41a8-af63-b91f547f08f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#news > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//li[@id='news']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blogs/')]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14a71a3d-9db0-441c-a5a9-381d0181450e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "491014f5-3c38-4dbf-ad8c-7cfec9d660e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrubbery li:nth-child(1) .event-location",
+      "targets": [
+        ["css=.shrubbery li:nth-child(1) .event-location", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pittsburgh, Pennsylvania, USA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8188ec19-35bb-44d2-9685-135641e9ed11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrubbery li:nth-child(1) .event-location",
+      "targets": [
+        ["css=.shrubbery li:nth-child(1) .event-location", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pittsburgh, Pennsylvania, USA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56276aa1-834d-4d39-9a15-8060e894e975",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.shrubbery li:nth-child(1) .event-location",
+      "targets": [
+        ["css=.shrubbery li:nth-child(1) .event-location", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pittsburgh, Pennsylvania, USA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2812382-6a33-4524-93a1-10d88f33bd16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrubbery li:nth-child(2)",
+      "targets": [
+        ["css=.shrubbery li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2dd0ebc-d506-4768-bce5-51545e80e7cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyGrunn 2024",
+      "targets": [
+        ["linkText=PyGrunn 2024", "linkText"],
+        ["css=.shrubbery li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyGrunn 2024')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/1741/')]", "xpath:href"],
+        ["xpath=//li[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb07d1a2-2030-4e02-bdad-e5d7e5e8b5a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-event-title",
+      "targets": [
+        ["css=.single-event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c7dc3f3c-0794-4a83-a7a0-cf999f027964",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f0d728ae-6388-4c98-beba-86c2552509f9"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

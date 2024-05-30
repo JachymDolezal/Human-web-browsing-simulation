@@ -1,0 +1,85 @@
+{
+  "id": "f3692a67-8277-4e8a-b3b7-5329552818f3",
+  "version": "2.0",
+  "name": "afd",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "5367e7ac-38d6-4c8f-9223-00d0a4bf50af",
+    "name": "dsadsa",
+    "commands": [{
+      "id": "ca818b7f-ee3f-4d39-8eb3-910ceef92b56",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9381cba8-41e7-4d53-8563-4dd1bb1d067e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1313",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeba4e83-3283-43d6-a8c6-6db413b7c758",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget .give-me-more",
+      "targets": [
+        ["css=.event-widget .give-me-more", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e705240-ccef-4d77-95fc-4ec8d136e2aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget .give-me-more > a",
+      "targets": [
+        ["css=.event-widget .give-me-more > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'More')])[7]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/calendars/')]", "xpath:href"],
+        ["xpath=//div[2]/div/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20201d9b-ff44-4274-9968-a80f1a972334",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events Calendar",
+      "targets": [
+        ["linkText=Python Events Calendar", "linkText"],
+        ["css=.list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events Calendar')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/article/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/events/python-events/')])[3]", "xpath:href"],
+        ["xpath=//article/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5f014a-23a2-4514-9e15-5d597e299d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-recent-events > li:nth-child(5)",
+      "targets": [
+        ["css=.list-recent-events > li:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e609ce9-eebf-40fa-a934-c551c327102a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5367e7ac-38d6-4c8f-9223-00d0a4bf50af"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

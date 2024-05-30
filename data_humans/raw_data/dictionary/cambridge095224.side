@@ -1,0 +1,141 @@
+{
+  "id": "9d1e184b-ac1a-4800-af06-2e65b1970b34",
+  "version": "2.0",
+  "name": "cambridge",
+  "url": "https://dictionary.cambridge.org/",
+  "tests": [{
+    "id": "01062bd1-7f62-4be7-97da-d95ff54431ad",
+    "name": "cambridge095224",
+    "commands": [{
+      "id": "3a4495e9-6e0c-4759-9160-7f4c7e40e40b",
+      "comment": "",
+      "command": "open",
+      "target": "https://dictionary.cambridge.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "072e4cba-ee1b-4f5d-b304-21533498f011",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5252ace9-c213-41c8-b5ec-f7f4ac62d07d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Souhlasím')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfcd8d0b-4808-453d-a01f-c7ba55dd7d93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Souhlasím')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d052a44c-bf90-4d52-b188-07e223d7c01e",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Souhlasím')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20a74d8d-eb5d-48e8-b8ce-28cde740f459",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24fe9e20-18c7-4b56-8a9c-263b0ecb7859",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "14dc4bf8-9bdc-4ab7-9c6f-4f56ed2e64f8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "302fcb3e-3bb4-4f6d-b0ce-6b285dd989b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fc-button-text",
+      "targets": [
+        ["css=.fc-button-text", "css:finder"],
+        ["xpath=//button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17b8dca1-9bc7-40fe-81df-4e87cc790035",
+      "comment": "",
+      "command": "click",
+      "target": "css=.material-icons",
+      "targets": [
+        ["css=.material-icons", "css:finder"],
+        ["xpath=//div[5]/div/div[2]/button/i", "xpath:position"],
+        ["xpath=//i[contains(.,'cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd9048e0-4912-4b57-a318-0b40d30299eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01062bd1-7f62-4be7-97da-d95ff54431ad"]
+  }],
+  "urls": [],
+  "plugins": []
+}

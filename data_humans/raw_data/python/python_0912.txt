@@ -1,0 +1,4 @@
+19 | https://www.python.org/python-user-group/1756/
+38 | https://www.python.org/python-user-group/1756/
+42 | https://meetup.com/pyladies/events/300253273/
+53 | https://meetup.com/pyladies/events/300253273/

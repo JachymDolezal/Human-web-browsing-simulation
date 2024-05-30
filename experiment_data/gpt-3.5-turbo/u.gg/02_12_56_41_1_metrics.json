@@ -1,0 +1,68 @@
+{
+    "exit": true,
+    "goal_complete": true,
+    "action_count": 4,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 1,
+        "Exit": 1,
+        "Retrieve": 1
+    },
+    "simulation_length": 31.704094886779785,
+    "average_time_per_action": 7.926023721694946,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find counters for Ahri.",
+                "Action": "use a search bar",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714647367.791604
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Counters' link to find the counters for Ahri.",
+                "Action": "click on link/button",
+                "Action_Context": "Counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714647377.446386
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the list of champions that counter Ahri from the current page.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "List of champions that counter Ahri"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714647387.876477
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "I will exit as the goal of finding counters for Ahri has been achieved.",
+                "Action": "exit",
+                "Action_Context": ""
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714647399.495699
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

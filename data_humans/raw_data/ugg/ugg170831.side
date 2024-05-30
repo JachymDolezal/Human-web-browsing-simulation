@@ -1,0 +1,230 @@
+{
+  "id": "e975f4ae-ee01-4ea4-8801-2ae17d2e54c2",
+  "version": "2.0",
+  "name": "https://u.gg/lol/champions",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "3f031a4f-c601-4191-9d64-0a0311c62a1c",
+    "name": "ugg170831",
+    "commands": [{
+      "id": "bd1b4046-6b2f-4f7f-962c-eec157415d87",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31311038-84a4-4be0-ba43-21016f893473",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61541849-31b7-4bed-8851-b13072fdae95",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1b0308-1f13-42c1-8089-fdea819a88f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.react-autosuggest__container--open > #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kled"
+    }, {
+      "id": "dd1ac14d-86a9-4c36-8740-36f0cdc99cb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .suggest-text",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .suggest-text", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e728f8-647a-48a6-be41-061e302ad929",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Pro Builds",
+      "targets": [
+        ["linkText=Pro Builds", "linkText"],
+        ["css=.page-nav-container:nth-child(2) .tab-label:nth-child(1) > .pbs-tab", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pro Builds')])[3]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[7]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://probuildstats.com/champion/kled')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[7]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "742a9fd4-fe01-4006-ac20-41a025d6e278",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "505,133.8125"
+    }, {
+      "id": "f86afc02-0688-48e9-b490-27e75a85bbc2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "505,133.8125"
+    }, {
+      "id": "38562471-d371-4814-b548-7820637e387b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=toughest-matchups",
+      "targets": [
+        ["id=toughest-matchups", "id"],
+        ["css=#toughest-matchups", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "505,133.8125"
+    }, {
+      "id": "4ca5989b-cffa-454b-a552-56e64312686b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-matchup:nth-child(10)",
+      "targets": [
+        ["css=.champion-matchup:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='toughest-matchups']/a[10]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lol/champions/gnar/build/top')]", "xpath:href"],
+        ["xpath=//a[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf9f689-0ce6-45de-836f-58467ab967ed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c4057d8-7481-48da-b3f2-6088898005da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4)",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[4]/div/div/div[5]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lol/champions/gnar/build/adc')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[5]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "739c4ebd-9fc8-4030-b7a0-70cd6f9409a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4)",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[4]/div/div/div[5]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lol/champions/gnar/build/adc')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[5]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8314bc5e-c897-47df-9642-d8ec2b5419d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(3)",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[4]/div/div/div[5]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lol/champions/gnar/build/mid')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[5]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ea92a38-a15c-41ba-b0ae-11f48e830ad9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(3)",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[4]/div/div/div[5]/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lol/champions/gnar/build/mid')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[5]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1456b089-cfcf-45e2-b32c-00feffde92a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gnar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a8bbed-a32c-4f01-acba-8d1a4e521378",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gnar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3457b57c-6cca-4b09-af4d-04859eb3baad",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gnar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2355872b-18ed-4923-9484-334165b714d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3f031a4f-c601-4191-9d64-0a0311c62a1c"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

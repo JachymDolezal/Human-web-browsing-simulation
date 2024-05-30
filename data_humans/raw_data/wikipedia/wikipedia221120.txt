@@ -1,0 +1,11 @@
+12 | https://www.wikipedia.org/
+19 | https://www.wikipedia.org/
+20 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+24 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+64 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+64 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+64 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+64 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+82 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+81 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+82 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel

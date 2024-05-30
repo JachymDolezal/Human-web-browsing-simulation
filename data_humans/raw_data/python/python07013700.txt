@@ -1,0 +1,3 @@
+18 | https://www.python.org/events/
+22 | https://www.python.org/events/python-events/
+30 | https://www.python.org/events/python-events/

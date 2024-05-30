@@ -1,0 +1,103 @@
+{
+  "id": "6c1d58ba-7e1b-47b8-9517-260d22542fbd",
+  "version": "2.0",
+  "name": "Jácawiki",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "af25c4ee-2429-4640-95e5-e7863ca3eb10",
+    "name": "Jácawiki",
+    "commands": [{
+      "id": "2daf2266-dba7-4552-b2b7-7cc3594afc15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fa55c41-3c33-4081-9fbc-58eba4dd1ae5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x839",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "567181fd-b323-430f-97cb-20533e65955f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c2b9a70-9b73-4d24-a17d-3c6e32248f3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "václa"
+    }, {
+      "id": "0e547795-3159-44af-b5ad-08646451d8d9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "3ff3037b-a086-4a20-8f7c-261869e636c0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "edc11c89-a2bf-4d10-ae92-ba8c4ec8c6c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9a0768f3-d774-43b1-8d26-0a5eb6708e38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["af25c4ee-2429-4640-95e5-e7863ca3eb10"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

@@ -1,0 +1,399 @@
+{
+  "id": "55901f6a-0c8e-4e83-95e2-6e4db69e0542",
+  "version": "2.0",
+  "name": "rottentomatoes",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [
+    {
+      "id": "9e467760-1040-421c-981a-de4d229d1280",
+      "name": "rottentomatoes14403",
+      "commands": [
+        {
+          "id": "05c3e636-e92d-4561-a18b-2bcd393abfc4",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1eececdb-3ac5-479e-a966-bfa955ab4b3f",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "699x896",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "30e3bcb1-3f8a-4ccd-9e3a-e152ad744552",
+          "comment": "",
+          "command": "click",
+          "target": "id=onetrust-reject-all-handler",
+          "targets": [
+            [
+              "id=onetrust-reject-all-handler",
+              "id"
+            ],
+            [
+              "css=#onetrust-reject-all-handler",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='onetrust-reject-all-handler']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='onetrust-button-group']/button[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/button[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Reject All')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "8465abe6-3f08-4343-b260-a4ab6f502a4a",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "id=onetrust-reject-all-handler",
+          "targets": [
+            [
+              "id=onetrust-reject-all-handler",
+              "id"
+            ],
+            [
+              "css=#onetrust-reject-all-handler",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='onetrust-reject-all-handler']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='onetrust-button-group']/button[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/button[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Reject All')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2d848268-06d5-4e08-a714-0e67ee76d425",
+          "comment": "",
+          "command": "mouseOut",
+          "target": "id=onetrust-reject-all-handler",
+          "targets": [
+            [
+              "id=onetrust-reject-all-handler",
+              "id"
+            ],
+            [
+              "css=#onetrust-reject-all-handler",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='onetrust-reject-all-handler']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='onetrust-button-group']/button[2]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/button[2]",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Reject All')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e72f3dba-c413-4181-8d9a-a2688a0de8e2",
+          "comment": "",
+          "command": "click",
+          "target": "id=top_leaderboard_wrapper",
+          "targets": [
+            [
+              "id=top_leaderboard_wrapper",
+              "id"
+            ],
+            [
+              "css=#top_leaderboard_wrapper",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='top_leaderboard_wrapper']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//div[@id='header_and_leaderboard']/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div[3]/div/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5f160d99-0451-4235-b1e2-dea1511779dd",
+          "comment": "",
+          "command": "click",
+          "target": "css=.search-text",
+          "targets": [
+            [
+              "css=.search-text",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@type='text']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "abac46a4-0ad2-441b-b1ee-cbdb783ea08a",
+          "comment": "",
+          "command": "type",
+          "target": "css=.search-text",
+          "targets": [
+            [
+              "css=.search-text",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@type='text']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "monty python and the "
+        },
+        {
+          "id": "64b193f8-1dff-4074-8fed-849b28c1456a",
+          "comment": "",
+          "command": "click",
+          "target": "css=search-algolia-results-category:nth-child(1) search-algolia-results-item-deprecated",
+          "targets": [
+            [
+              "css=search-algolia-results-category:nth-child(1) search-algolia-results-item-deprecated",
+              "css:finder"
+            ],
+            [
+              "xpath=//rt-header[@id='header-main']/mobile-search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item-deprecated",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//search-algolia-results-item-deprecated",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "963168b5-56d3-4da2-9738-9a703ef59fc0",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,35.625)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6c03630d-6232-4086-9ae3-526cb2819aa9",
+          "comment": "",
+          "command": "click",
+          "target": "css=a:nth-child(5) > rt-tab",
+          "targets": [
+            [
+              "css=a:nth-child(5) > rt-tab",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='modules-wrap']/section/nav/modules-navigation-carousel/a[4]/rt-tab",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[4]/rt-tab",
+              "xpath:position"
+            ],
+            [
+              "xpath=//rt-tab[contains(.,'Cast & Crew')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "42da42ec-d4f0-4d64-9154-e81aff19e8da",
+          "comment": "",
+          "command": "click",
+          "target": "css=div > a:nth-child(1) > tile-dynamic",
+          "targets": [
+            [
+              "css=div > a:nth-child(1) > tile-dynamic",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//div/a/tile-dynamic",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5d92fd6f-20a5-498a-bc44-5049f45750cc",
+          "comment": "",
+          "command": "click",
+          "target": "css=.celebrity-bio__h1",
+          "targets": [
+            [
+              "css=.celebrity-bio__h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='celebrity']/article/section/div/div/h1",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h1",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h1[contains(.,'Terry Gilliam')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bea1e584-1d28-40e8-9f9c-29366843874d",
+          "comment": "",
+          "command": "click",
+          "target": "css=.celebrity-bio__h1",
+          "targets": [
+            [
+              "css=.celebrity-bio__h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='celebrity']/article/section/div/div/h1",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h1",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h1[contains(.,'Terry Gilliam')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ec713b2d-38de-4c76-b24c-9c928a868b01",
+          "comment": "",
+          "command": "doubleClick",
+          "target": "css=.celebrity-bio__h1",
+          "targets": [
+            [
+              "css=.celebrity-bio__h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='celebrity']/article/section/div/div/h1",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h1",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h1[contains(.,'Terry Gilliam')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ce4ca9d7-2ae6-4bb1-8258-1ab77ae70fd3",
+          "comment": "",
+          "command": "click",
+          "target": "css=.celebrity-bio__h1",
+          "targets": [
+            [
+              "css=.celebrity-bio__h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='celebrity']/article/section/div/div/h1",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h1",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h1[contains(.,'Terry Gilliam')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "b90f6174-0caa-4f8e-bb72-47033b058164",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "9e467760-1040-421c-981a-de4d229d1280"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.rottentomatoes.com/"
+  ],
+  "plugins": []
+}

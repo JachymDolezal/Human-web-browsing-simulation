@@ -1,0 +1,84 @@
+{
+  "id": "72a30dfd-056f-4769-91dc-edb334e98c78",
+  "version": "2.0",
+  "name": "https://www.rottentomatoes.com/",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "9bbd18c2-2b2e-4d23-abe0-d887c62a3fdf",
+    "name": "monty",
+    "commands": [{
+      "id": "f2fb9f6a-22a7-400c-9ecc-8f218a95957a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883735dd-df5a-44bc-842c-d3e9ba412157",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1540x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "779ee071-7d63-4457-b3a5-074fdb04bfdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d113541-fcd6-4955-ab11-fdc5622bc9ef",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " monty python the h"
+    }, {
+      "id": "b7f190b1-4944-4dba-bbb4-6f62a81a6944",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item-deprecated", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item-deprecated", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ffc4ad-5e7c-494f-a5e1-c8f1db1acc52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,342)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25047af6-d156-4e27-b434-fb4f380ba9fb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1352)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73ddc2bb-cb21-4b3d-b753-771147e6ce06",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9bbd18c2-2b2e-4d23-abe0-d887c62a3fdf"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

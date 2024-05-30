@@ -1,0 +1,4 @@
+7 | https://www.python.org/events/calendars/
+9 | https://www.python.org/events/python-events/
+12 | https://www.python.org/events/python-events/
+19 | https://www.python.org/events/python-events/

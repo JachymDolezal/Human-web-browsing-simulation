@@ -1,0 +1,57 @@
+{
+    "exit": true,
+    "goal_complete": false,
+    "action_count": 3,
+    "action_per_type": {
+        "Search": 0,
+        "Click": 2,
+        "Exit": 1,
+        "Retrieve": 0
+    },
+    "simulation_length": 18.548816919326782,
+    "average_time_per_action": 6.182938973108928,
+    "raw_data": [
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "Ahri is one of the champions listed on the website. We can find counters for Ahri by clicking on the Ahri link.",
+                "Action": "click on link/button",
+                "Action_Context": "Ahri"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714647644.25159
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "We are currently on the Ahri build page. Let's navigate to the counters section to find the counters for Ahri.",
+                "Action": "click on link/button",
+                "Action_Context": "Counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/build",
+            "epoch_timestamp": 1714647652.025393
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "The data suggests that champions with gap-closing abilities and burst damage, such as Talon and Diana, are effective counters against Ahri's wave-clearing strategy.",
+                "Action": "exit",
+                "Action_Context": ""
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714647662.800407
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

@@ -1,0 +1,5 @@
+2 | https://dictionary.cambridge.org/
+4 | https://dictionary.cambridge.org/
+5 | https://dictionary.cambridge.org/
+7 | https://dictionary.cambridge.org/dictionary/english/fungus
+10 | https://dictionary.cambridge.org/dictionary/english/fungus

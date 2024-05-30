@@ -1,0 +1,77 @@
+{
+  "id": "b84c4095-7603-4407-8d4a-ae2efc2e4cba",
+  "version": "2.0",
+  "name": "hello",
+  "url": "https://dictionary.cambridge.org/",
+  "tests": [{
+    "id": "ff1afaea-5973-4b4f-b478-36ebb8e5d546",
+    "name": "cambridge171025",
+    "commands": [{
+      "id": "4606e5d1-ceee-48dc-8fb4-9da5778778d3",
+      "comment": "",
+      "command": "open",
+      "target": "https://dictionary.cambridge.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35874a3a-b70e-4281-b83d-46d0d4de933c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83416f28-49f7-43bb-898a-724bf9d83cd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2abe2055-d60d-4b0c-9ef6-9c6bc7a8a13a",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "b2f47a61-b26e-44f6-a560-e45675529849",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "12744574-1825-4d21-9598-a051c0f01b2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

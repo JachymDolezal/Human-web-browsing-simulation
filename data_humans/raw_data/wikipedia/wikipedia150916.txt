@@ -1,0 +1,10 @@
+0 | https://www.wikipedia.org/
+2 | https://www.wikipedia.org/
+3 | https://www.wikipedia.org/
+13 | https://www.wikipedia.org/
+17 | https://www.wikipedia.org/
+19 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+56 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+56 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+57 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+57 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel

@@ -1,0 +1,77 @@
+{
+  "id": "456b07d8-eaed-4b98-a0f1-cd8139eb41ff",
+  "version": "2.0",
+  "name": "fungus222120",
+  "url": "https://dictionary.cambridge.org",
+  "tests": [{
+    "id": "016ef29b-9551-4bcd-86f4-8e90bc7a439e",
+    "name": "fungus222120",
+    "commands": [{
+      "id": "28011cdb-1f80-433e-bce3-2040cd0bb74f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94fb895f-fb25-472d-88f2-78901e4d10a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1030x994",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89047afd-0ec5-4bf4-84e2-a2fb34b08c46",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f27c6829-eca9-4786-a940-787f23dc74b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "93272505-04db-4e7f-ae4d-032f5cc69abb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "8eecd839-9ec4-4dd0-9100-13492925aba6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["016ef29b-9551-4bcd-86f4-8e90bc7a439e"]
+  }],
+  "urls": ["https://dictionary.cambridge.org/"],
+  "plugins": []
+}

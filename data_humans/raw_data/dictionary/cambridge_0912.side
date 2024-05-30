@@ -1,0 +1,193 @@
+{
+  "id": "5401019f-d6e0-47d4-9251-3651e6b23289",
+  "version": "2.0",
+  "name": "Antonín_Fungus_0912",
+  "url": "https://dictionary.cambridge.org",
+  "tests": [{
+    "id": "ac8d6be8-9928-44f1-aa45-c11ece60a0d8",
+    "name": "Antonín_Cambridge_0912",
+    "commands": [{
+      "id": "71b22fd5-303c-455e-acb5-ba255953e96a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40849a69-fc97-4aa4-8739-703a8b608cd0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1096x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0425d7f9-88a0-455a-8e2b-03c922cefdf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-pc-btn-handler",
+      "targets": [
+        ["id=onetrust-pc-btn-handler", "id"],
+        ["css=#onetrust-pc-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-pc-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Zobrazit účely')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ec19d1-e186-4374-a7a7-5fb7108f22df",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-recommended-btn-handler",
+      "targets": [
+        ["id=accept-recommended-btn-handler", "id"],
+        ["css=#accept-recommended-btn-handler", "css:finder"],
+        ["xpath=//button[@id='accept-recommended-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-pc-sdk']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Povolit vše')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1576b91a-4d15-4c7d-b742-6e3ab98de7e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1f2ca7c-8a3e-4869-8eb3-7b5b704e3f02",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=15",
+      "targets": [
+        ["index=15"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6f778d-c140-4dd3-8dc4-ba58c516cd5e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.img_ad > .i-amphtml-fill-content",
+      "targets": [
+        ["css=.img_ad > .i-amphtml-fill-content", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tpc.googlesyndication.com/simgad/7123083546719027367')]", "xpath:img"],
+        ["xpath=//a[@id='aw0']/amp-img/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18fe7a3e-668e-4171-90e5-364aced258d2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e3f8be8-6a05-4670-9f1a-386451047a35",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=14",
+      "targets": [
+        ["index=14"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b2b240e-9ff4-4609-be42-70a84a58213a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.img_ad > .i-amphtml-fill-content",
+      "targets": [
+        ["css=.img_ad > .i-amphtml-fill-content", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tpc.googlesyndication.com/simgad/7123083546719027367')]", "xpath:img"],
+        ["xpath=//a[@id='aw0']/amp-img/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "701e38f0-47ad-438a-b034-74f1c11c11c4",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "979d43cd-f2d8-4ba9-83f7-8028ec5da7c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Go to + Plus",
+      "targets": [
+        ["linkText=Go to + Plus", "linkText"],
+        ["css=div:nth-child(2) > .lmb-5 > .bh", "css:finder"],
+        ["xpath=//div[@id='rightcol-above-sticky']/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/plus/')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to + Plus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a27ca4f-8224-4e5a-a877-46c25374ed16",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "168ed8d8-5454-40e5-b096-0f72c32ef935",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "d1d3b735-6235-45a0-9a86-ea62348e7727",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4349966b-c30b-4cb6-93fc-199f04d7fd5d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fa36d38b-e397-4c18-bfea-906fde8ec12b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ac8d6be8-9928-44f1-aa45-c11ece60a0d8"]
+  }],
+  "urls": ["https://dictionary.cambridge.org/"],
+  "plugins": []
+}

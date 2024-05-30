@@ -1,0 +1,127 @@
+{
+  "id": "65c580f4-67e7-4a39-a10a-5b3c8a2c927b",
+  "version": "2.0",
+  "name": "rottentomatoes12131",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "0945af5b-fe1f-4f8a-aa23-59655da7c6f1",
+    "name": "rottentomatoes12131",
+    "commands": [{
+      "id": "b50e0548-9b44-4804-a2d6-283799b73fa0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35fd7685-bd3f-4779-84b7-4e8ec4bcc5f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "896x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a1d93f9-5119-4a35-a0e8-a997a1be56e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_4ao5eF8B",
+      "targets": [
+        ["css=.\\_4ao5eF8B", "css:finder"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63dbd626-4722-4040-a8ea-a3ed470fa92d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "207efc5f-c074-4f72-aee6-2833d2b60fd4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "monty python and the hol"
+    }, {
+      "id": "e3d16203-d8ab-43cc-bfe6-8dda31b23c68",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) search-algolia-results-item",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) search-algolia-results-item", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9882752e-25e5-4d99-a2a0-71ed0aca8e5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f99fa48-02ca-4f37-8270-6f960ad1a82a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__h1",
+      "targets": [
+        ["css=.celebrity-bio__h1", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69ded106-fa49-4742-b416-0df22806ccb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__content",
+      "targets": [
+        ["css=.celebrity-bio__content", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div", "xpath:idRelative"],
+        ["xpath=//article/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13fcda55-29b7-485d-a316-5ff4e1971c50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__h1",
+      "targets": [
+        ["css=.celebrity-bio__h1", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "996d9144-3f42-4fdf-91a4-6d6397ec58be",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0945af5b-fe1f-4f8a-aa23-59655da7c6f1"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

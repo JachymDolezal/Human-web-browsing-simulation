@@ -1,0 +1,143 @@
+{
+  "id": "b84c4095-7603-4407-8d4a-ae2efc2e4cba",
+  "version": "2.0",
+  "name": "hello",
+  "url": "https://u.gg/lol/champions",
+  "tests": [{
+    "id": "78b31e23-17e5-4b5c-bd4d-95f9be1ece70",
+    "name": "gg171725",
+    "commands": [{
+      "id": "1c4b3cce-8736-4604-b9b7-aa57d6831222",
+      "comment": "",
+      "command": "open",
+      "target": "https://u.gg/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2e944ff-ecbd-421e-9b12-9723b10e2f67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc66f9e1-551b-4ec1-99f4-739e6ba8d473",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "288997b6-5c0c-4f74-98ef-e088686fb5da",
+      "comment": "",
+      "command": "type",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.react-autosuggest__container--open > #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kled"
+    }, {
+      "id": "0510dd84-baa3-401a-98dc-a7cc8332b258",
+      "comment": "",
+      "command": "click",
+      "target": "css=.masthead-ugg-search-bar:nth-child(1) > .autosuggest-button",
+      "targets": [
+        ["css=.masthead-ugg-search-bar:nth-child(1) > .autosuggest-button", "css:finder"],
+        ["xpath=//div[@id='masthead']/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abb4e7e4-3305-4336-93f6-f98e57237d46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b0c61f6-340b-46f6-b7c2-4258f4fa2dbb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE > .role-filter:nth-child(4) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d0c1287-81d9-42f0-ba78-ef575b022509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e85c485-fa81-43d3-84da-c92c3de5f18b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadcae68-5f9e-4dcf-8d10-0b2f3bc67b09",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63739a29-2152-45f8-82b2-2c9088173f90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gold-diff:nth-child(1) .champion-name",
+      "targets": [
+        ["css=.gold-diff:nth-child(1) .champion-name", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[3]/div[2]/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9eacc5d-33db-4289-b87f-7c3e2d03368a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12744574-1825-4d21-9598-a051c0f01b2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

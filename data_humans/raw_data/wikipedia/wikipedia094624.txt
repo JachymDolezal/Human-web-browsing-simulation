@@ -1,0 +1,6 @@
+2 | https://www.wikipedia.org/
+6 | https://www.wikipedia.org/
+10 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+12 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+15 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel
+18 | https://en.wikipedia.org/wiki/V%C3%A1clav_Havel

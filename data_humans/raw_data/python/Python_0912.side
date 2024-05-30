@@ -1,0 +1,105 @@
+{
+  "id": "1fe0c606-41f2-4af9-acb6-a13a076e9b3d",
+  "version": "2.0",
+  "name": "Antonín_Python_0912",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "af63696d-3070-495e-90ac-a224818d1694",
+    "name": "Antonín_Python_0912",
+    "commands": [{
+      "id": "4a037cb7-a61a-46c5-aa3e-571023f98c0e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d291d66-182d-4108-a547-c7ca92d20d4c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1096x827",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d69b50d-8975-4f41-a1c0-ce4704baee12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic",
+      "targets": [
+        ["linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic", "linkText"],
+        ["css=.event-widget li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1756/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d8bf4b3-ddf6-4e57-af86-5a662e699b25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-event-title",
+      "targets": [
+        ["css=.single-event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9781d1ce-57b3-424e-aea3-213bb70dcded",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic",
+      "targets": [
+        ["linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic", "linkText"],
+        ["css=.event-description > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/article/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.meetup.com/pyladiesams/events/300253273/')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e9b1139-1b87-4ec8-b13e-2be3917be40a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=onetrust-pc-btn-handler",
+      "targets": [
+        ["id=onetrust-pc-btn-handler", "id"],
+        ["css=#onetrust-pc-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-pc-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed6ff9d-d233-4cc2-87c0-715636da4b71",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b95007e-8a72-4d01-9e50-93a8dc5f0c03",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["af63696d-3070-495e-90ac-a224818d1694"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

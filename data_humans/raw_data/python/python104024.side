@@ -1,0 +1,237 @@
+{
+  "id": "3033ff2f-1541-4a25-a1a2-8fc096d93aed",
+  "version": "2.0",
+  "name": "python",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "82914db5-5982-4845-b400-cb857c3beef7",
+    "name": "python",
+    "commands": [{
+      "id": "5c72c762-4a68-4936-88cb-44c776b80bd7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c287eb6e-3f64-404a-861b-2dfe6cc2791c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1722x1042",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb09c428-0840-4edf-be9a-4acf59c5aa93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aaa2abd-0b54-4918-941d-a8d8565e8e92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=2')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a8d8dc6-f446-4d96-b43f-567786e6553f",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab97930-ee53-4773-9107-aaa3b395c9d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=3')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7128e53-caa5-443e-8b18-137b99ed6b55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=4')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc970a9e-6f2f-42de-9daf-58202e75a870",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=5')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d111b2a-de82-48b7-acc1-bcb306f74ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content > .container",
+      "targets": [
+        ["css=#content > .container", "css:finder"],
+        ["xpath=//div[@id='content']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb3b8c1-d210-4b1f-a7e4-be232f8f34c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=6')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f729dacb-c913-43ac-a029-dc078c9a385a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=7')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77e6159-8821-4fd5-91ad-beb1168edad1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f7be4d2-f901-465a-8560-3bd7fd9022e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=2')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dddfdd26-4616-4b9f-825e-20ae62901c02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=3')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c47ed7da-803a-4577-9ffe-e32732af0d96",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8025ec85-1b9b-4a9b-b867-727f9e613898",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=4')]", "xpath:href"],
+        ["xpath=//div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d33d3765-26cb-4637-bb4c-1cb0f41938af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82914db5-5982-4845-b400-cb857c3beef7"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

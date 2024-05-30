@@ -1,0 +1,101 @@
+{
+  "id": "1170a769-f852-47fe-b40e-d46647317967",
+  "version": "2.0",
+  "name": "python12041",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "2acc83cd-f335-4eda-92a3-553d46c0d4e3",
+    "name": "python12041",
+    "commands": [{
+      "id": "356f2be5-ce75-429c-9762-f0c0f58ee170",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce5b7cf0-645a-4ca0-a0f5-7bb755b3e4cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "896x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2f05710-c264-472e-b2ac-86e2bcd6ff2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget .give-me-more > a",
+      "targets": [
+        ["css=.event-widget .give-me-more > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'More')])[7]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/calendars/')]", "xpath:href"],
+        ["xpath=//div[2]/div/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "403db79d-9df4-4378-8549-47262165812e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events Calendar",
+      "targets": [
+        ["linkText=Python Events Calendar", "linkText"],
+        ["css=.list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events Calendar')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/article/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/events/python-events/')])[3]", "xpath:href"],
+        ["xpath=//article/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77a96fb-5af4-4eca-a3a2-7b8ca672c6b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.give-me-more > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?page=2')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28488d25-0cb1-49af-8e61-57729789f69c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-recent-events > li:nth-child(5)",
+      "targets": [
+        ["css=.list-recent-events > li:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d4e3acf-c138-4684-8e40-95fbb9cb9894",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > .event-title",
+      "targets": [
+        ["css=li:nth-child(5) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[5]/h3", "xpath:idRelative"],
+        ["xpath=//li[5]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Wagtail Space NL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c219c2f-9788-41d6-8169-4fa59ab8a174",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2acc83cd-f335-4eda-92a3-553d46c0d4e3"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

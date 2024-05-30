@@ -1,0 +1,46 @@
+{
+    "exit": true,
+    "goal_complete": false,
+    "action_count": 2,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 0,
+        "Exit": 1,
+        "Retrieve": 0
+    },
+    "simulation_length": 19.838223934173584,
+    "average_time_per_action": 9.919111967086792,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I should use a search bar to find counters for Ahri.",
+                "Action": "use a search bar",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714648512.314369
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "",
+                "Action": "exit",
+                "Action_Context": ""
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714648532.152593
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "exit": true,
+    "goal_complete": true,
+    "action_count": 2,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 0,
+        "Exit": 1,
+        "Retrieve": 0
+    },
+    "simulation_length": 16.459346055984497,
+    "average_time_per_action": 8.229673027992249,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "To find the definition of the word 'Fungus', I should use the search functionality provided by the website.",
+                "Action": "use a search bar",
+                "Action_Context": "Fungus"
+            },
+            "goal": "Find the defition of a word Fungus",
+            "current_url": "https://dictionary.cambridge.org/",
+            "epoch_timestamp": 1715092614.500335
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "The definition of 'Fungus' is available on the current page, thus the goal is achieved.",
+                "Action": "action exit",
+                "Action_Context": ""
+            },
+            "goal": "Find the defition of a word Fungus",
+            "current_url": "https://dictionary.cambridge.org/dictionary/english/fungus?q=Fungus",
+            "epoch_timestamp": 1715092630.959681
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

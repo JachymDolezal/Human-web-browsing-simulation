@@ -1,0 +1,119 @@
+{
+    "exit": true,
+    "goal_complete": true,
+    "action_count": 4,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 1,
+        "Exit": 1,
+        "Retrieve": 1
+    },
+    "simulation_length": 33.695475816726685,
+    "average_time_per_action": 8.423868954181671,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find counters for Ahri.",
+                "Action": "use a search bar",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714646896.834911
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Counters' link to view the champions that counter Ahri.",
+                "Action": "click on link/button",
+                "Action_Context": "Counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646907.333158
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the list of champions that counter Ahri from the current page.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "List of champions and their win rates and games played"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646917.579122
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "I have successfully retrieved the list of champions that counter Ahri along with their win rates and games played.",
+                "Action": "exit",
+                "Action_Context": "Goal achieved - Counters for Ahri found"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646930.530387
+        }
+    ],
+    "logs": {
+        "raw_data": [
+            {
+                "datetime": "2024-05-02 12:47:57,359",
+                "log_level": "INFO",
+                "message": "Starting simulation ..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:08,504",
+                "log_level": "INFO",
+                "message": "cookies popup handled"
+            },
+            {
+                "datetime": "2024-05-02 12:48:15,311",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:16,828",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:25,267",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:27,331",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:36,018",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:37,578",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:48,963",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:48:50,528",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            }
+        ],
+        "count_per_level": {
+            "DEBUG": 8,
+            "INFO": 2,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

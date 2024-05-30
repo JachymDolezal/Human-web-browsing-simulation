@@ -1,0 +1,116 @@
+{
+  "id": "809dc17d-f7c4-4a3f-9a6f-be9352dbd1ab",
+  "version": "2.0",
+  "name": "rottentomatotes",
+  "url": "https://www.rottentomatoes.com/",
+  "tests": [{
+    "id": "6783e07e-e0d2-433d-9363-fb6b7afcc00b",
+    "name": "rottentomatoes095624",
+    "commands": [{
+      "id": "91a7689f-9624-4617-bfdb-0bd7d80ccdc3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rottentomatoes.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29b9d2a4-acd8-4f2b-b7a1-2ca91e393e59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    },{
+      "id": "0856ded7-1211-4365-bf66-d4ab9fb05e12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cefa29d2-c196-49d7-899f-86580fe38fd0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Monty Python"
+    }, {
+      "id": "d89d1fae-1b9c-4dab-8d76-b70c9ab39986",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(2) search-algolia-results-item",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(2) search-algolia-results-item", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li[2]/a/search-algolia-results-item", "xpath:idRelative"],
+        ["xpath=//li[2]/a/search-algolia-results-item", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d5afe9-6c9a-4884-b975-d2044f5c969e",
+      "comment": "",
+      "command": "click",
+      "target": "css=drawer-more:nth-child(1) > rt-link:nth-child(3)",
+      "targets": [
+        ["css=drawer-more:nth-child(1) > rt-link:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[4]/section/div[2]/drawer-more/rt-link[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/drawer-more/rt-link[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd38a7a0-e019-4bec-973b-a10dd0f6f614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ed32b9f-2fac-4908-8d11-1a94ab927fc1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "The Holy Grail"
+    }, {
+      "id": "aac090a5-1ca5-42cd-81b8-14fc5e89f697",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b17ea920-53f3-4364-893c-01d675130f71",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6783e07e-e0d2-433d-9363-fb6b7afcc00b"]
+  }],
+  "urls": [],
+  "plugins": []
+}

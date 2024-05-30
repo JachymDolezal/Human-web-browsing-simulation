@@ -1,0 +1,14 @@
+7 | https://www.python.org/python-events/
+19 | https://www.python.org/events/python-events/?page=2
+28 | https://www.python.org/events/python-events/?page=2
+29 | https://www.python.org/events/python-events/?page=3
+52 | https://www.python.org/events/python-events/?page=4
+56 | https://www.python.org/events/python-events/?page=5
+80 | https://www.python.org/events/python-events/?page=5
+108 | https://www.python.org/events/python-events/?page=6
+110 | https://www.python.org/events/python-events/?page=7
+121 | https://www.python.org/events/python-events/
+124 | https://www.python.org/events/python-events/?page=2
+125 | https://www.python.org/events/python-events/?page=3
+126 | https://www.python.org/events/python-events/?page=3
+133 | https://www.python.org/events/python-events/?page=4

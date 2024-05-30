@@ -1,0 +1,129 @@
+{
+    "exit": true,
+    "goal_complete": true,
+    "action_count": 4,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 1,
+        "Exit": 1,
+        "Retrieve": 1
+    },
+    "simulation_length": 32.210777044296265,
+    "average_time_per_action": 8.052694261074066,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find counters for Ahri.",
+                "Action": "use a search bar",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714646567.742918
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Counters' link to find more information on Ahri counters.",
+                "Action": "click on link/button",
+                "Action_Context": "Counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646578.60209
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the text from the current page to find the counters for Ahri.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646589.142069
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "I have successfully found the counters for Ahri.",
+                "Action": "exit",
+                "Action_Context": "Goal achieved"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714646599.953695
+        }
+    ],
+    "logs": {
+        "raw_data": [
+            {
+                "datetime": "2024-05-02 12:42:11,001",
+                "log_level": "INFO",
+                "message": "Starting simulation ..."
+            },
+            {
+                "datetime": "2024-05-02 12:42:20,842",
+                "log_level": "INFO",
+                "message": "cookies popup handled"
+            },
+            {
+                "datetime": "2024-05-02 12:42:26,485",
+                "log_level": "INFO",
+                "message": "Starting simulation ..."
+            },
+            {
+                "datetime": "2024-05-02 12:42:38,318",
+                "log_level": "INFO",
+                "message": "cookies popup handled"
+            },
+            {
+                "datetime": "2024-05-02 12:42:45,404",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:42:47,736",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:42:57,161",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:42:58,601",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:43:07,620",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:43:09,141",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            },
+            {
+                "datetime": "2024-05-02 12:43:18,858",
+                "log_level": "DEBUG",
+                "message": "Waiting for AI response..."
+            },
+            {
+                "datetime": "2024-05-02 12:43:19,952",
+                "log_level": "DEBUG",
+                "message": "AI response received ..."
+            }
+        ],
+        "count_per_level": {
+            "DEBUG": 8,
+            "INFO": 4,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "b31660be-b191-4860-99a3-b0596b24823b",
+  "version": "2.0",
+  "name": "https://www.python.org/",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "2f762f31-83d2-4fc4-a6e3-bc7b1bbedd4d",
+    "name": "python165831",
+    "commands": [{
+      "id": "9f39a3da-3d5c-43b8-b170-727bdfdf8cac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70802d03-60d3-4916-8daa-ebe1dedbb72e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0571656f-bdaf-41bc-8265-822bd6d217fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#news > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//li[@id='news']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blogs/')]", "xpath:href"],
+        ["xpath=//header/div/nav/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb8e4e8-ae3d-4bff-a852-5aad6428b2c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54594938-59db-4a0d-b2a0-25c82970d9b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic",
+      "targets": [
+        ["linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic", "linkText"],
+        ["css=li:nth-child(3) > .event-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[3]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1756/')]", "xpath:href"],
+        ["xpath=//li[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f89e3c-20bb-4f3f-b4c0-aad97a07982d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content > .container",
+      "targets": [
+        ["css=#content > .container", "css:finder"],
+        ["xpath=//div[@id='content']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "33836703-19c7-47ff-9518-a6f293422475",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f762f31-83d2-4fc4-a6e3-bc7b1bbedd4d"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

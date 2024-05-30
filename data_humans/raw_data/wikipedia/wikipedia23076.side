@@ -1,0 +1,306 @@
+{
+  "id": "ab5e4dd4-3377-4ea3-a628-14961f089d3b",
+  "version": "2.0",
+  "name": "https://www.wikipedia.org/",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "9ae06f99-981a-4bf0-8868-aa99ca08a03f",
+    "name": "wikipedia23076",
+    "commands": [{
+      "id": "b2bf014a-4e84-4bce-af7d-fe6e0a04e2fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "688c6727-0ab8-4757-b9c9-050e68e99e1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c62a6d0c-edc8-4249-bf60-f11e70358520",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "vaclav havel"
+    }, {
+      "id": "91f8802f-3612-47c9-8d1b-0a5acc5c619e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8e2bfed7-6bcc-4731-87a4-01ff736d1d5e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.extiw:nth-child(6)",
+      "targets": [
+        ["css=.extiw:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vaclav havel')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div[3]/div/p/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cs.wiktionary.org/wiki/Speci%C3%A1ln%C3%AD:Hled%C3%A1n%C3%AD/Vaclav_havel')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3975ab13-1226-4f5a-aabc-ea901e984e2c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.extiw:nth-child(6)",
+      "targets": [
+        ["css=.extiw:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vaclav havel')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div[2]/div/p/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cs.wiktionary.org/wiki/Speci%C3%A1ln%C3%AD:Hled%C3%A1n%C3%AD/Vaclav_havel')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b16bee45-0494-4d39-ba80-acf815eab267",
+      "comment": "",
+      "command": "click",
+      "target": "id=ooui-php-1",
+      "targets": [
+        ["id=ooui-php-1", "id"],
+        ["css=#ooui-php-1", "css:finder"],
+        ["xpath=//input[@id='ooui-php-1']", "xpath:attributes"],
+        ["xpath=//div[@id='searchText']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab11258-3d9b-4863-b833-fa6067ebc9a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ooui-php-1",
+      "targets": [
+        ["id=ooui-php-1", "id"],
+        ["css=#ooui-php-1", "css:finder"],
+        ["xpath=//input[@id='ooui-php-1']", "xpath:attributes"],
+        ["xpath=//div[@id='searchText']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e1aa653-3969-4428-aed3-622c4255528f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=ooui-php-1",
+      "targets": [
+        ["id=ooui-php-1", "id"],
+        ["css=#ooui-php-1", "css:finder"],
+        ["xpath=//input[@id='ooui-php-1']", "xpath:attributes"],
+        ["xpath=//div[@id='searchText']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a3fc650-6fe0-4feb-80e1-3e24fced8897",
+      "comment": "",
+      "command": "click",
+      "target": "id=ooui-php-1",
+      "targets": [
+        ["id=ooui-php-1", "id"],
+        ["css=#ooui-php-1", "css:finder"],
+        ["xpath=//input[@id='ooui-php-1']", "xpath:attributes"],
+        ["xpath=//div[@id='searchText']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61db783c-8416-4d1e-ab3f-283e48cf536f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-search-result:nth-child(1) .mw-search-result-heading .searchmatch:nth-child(1)",
+      "targets": [
+        ["css=.mw-search-result:nth-child(1) .mw-search-result-heading .searchmatch:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div[2]/div[4]/ul/li/table/tbody/tr/td[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//td[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Václav')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac4fd4c4-bd0d-4ae6-95c5-c7036f6b4f58",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(32) > th",
+      "targets": [
+        ["css=tr:nth-child(32) > th", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/table/tbody/tr[32]/th", "xpath:idRelative"],
+        ["xpath=//tr[32]/th", "xpath:position"],
+        ["xpath=//th[contains(.,'Příbuzní')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14dfa359-111f-4269-be46-ded8a1bbb93f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.frb-icon-close",
+      "targets": [
+        ["css=.frb-icon-close", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "04eeb850-f29d-4d12-9b62-58f3346c1c9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "596dd4f2-b8af-4715-913b-abe914354d75",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b8abb2-faca-4176-865c-4892cb262c28",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc7f9ae-3509-4f3f-a357-b2599a2f15ac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeb083b9-37b5-4c56-9c83-0a1ed896f745",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15fdd5c-b191-455e-994c-96b1ea45eca8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f586b7b-fb71-48e8-ab88-a40c858378e0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab3a806a-9c07-44e8-afce-48b6bca7c6c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=English",
+      "targets": [
+        ["linkText=English", "linkText"],
+        ["css=.uls-language-option--highlighted > .autonym", "css:finder"],
+        ["xpath=//a[contains(text(),'English')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://en.wikipedia.org/wiki/V%C3%A1clav_Havel')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "470e0b67-452d-4d83-b875-f45dbce78890",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8974da-baab-420d-9f45-333c89e117e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb42b79e-8560-4d13-bee0-91d981ecc46b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(18)",
+      "targets": [
+        ["css=p:nth-child(18)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[7]", "xpath:idRelative"],
+        ["xpath=//p[7]", "xpath:position"],
+        ["xpath=//p[contains(.,'In the early 1950s, because of his class background, Havel entered into a four-year apprenticeship as a chemical laboratory assistant and simultaneously took evening classes at a gymnasium. He completed his secondary education in 1954.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc64b85e-1615-40f7-92e8-a060e02a6e08",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ae06f99-981a-4bf0-8868-aa99ca08a03f"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

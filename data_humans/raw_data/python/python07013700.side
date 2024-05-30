@@ -1,0 +1,76 @@
+{
+  "id": "150dfd10-d4a2-42c0-b512-308958ded9cd",
+  "version": "2.0",
+  "name": "https://www.python.org/",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "a82afca3-2577-40e8-82f8-22a58f1bef6a",
+    "name": "https://www.python.org/",
+    "commands": [{
+      "id": "a2eee133-e676-482e-8240-d50602b2d62f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66bee1fe-f2f9-4fb5-900e-439d90868c32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1540x1079",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b64a20a1-6a09-4c8e-a5a9-42d02e4f1a46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72de7837-ea3d-4a7a-b487-d53f05d2482d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25e3dd78-0fd6-4432-a904-d1b6425b68e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.most-recent-events",
+      "targets": [
+        ["css=.most-recent-events", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d9a1aec7-c551-4671-97d1-d9c92d7713fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a82afca3-2577-40e8-82f8-22a58f1bef6a"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

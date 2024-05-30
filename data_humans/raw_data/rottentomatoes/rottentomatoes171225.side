@@ -1,0 +1,94 @@
+{
+  "id": "b84c4095-7603-4407-8d4a-ae2efc2e4cba",
+  "version": "2.0",
+  "name": "hello",
+  "url": "https://www.rottentomatoes.com/",
+  "tests": [{
+    "id": "f807abcd-f853-4630-aa09-65e9b07e6fda",
+    "name": "rottentomatoes171225",
+    "commands": [{
+      "id": "dc8e99c8-4986-4f91-974e-b4b6487056e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rottentomatoes.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec39e556-1950-41ee-b3d9-fb1427053945",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1874x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "537b3767-a19c-406e-b53b-4be45a00a8f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6a8ea72-1c5e-43c1-afbf-9253e03f67c6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Monty Python and"
+    }, {
+      "id": "ebbedb24-8bfa-4360-8c35-00956590fde5",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item-deprecated", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item-deprecated", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fff3349-66e1-4d8b-9b03-fc3c6f8b839b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ad67385-5020-46e7-a553-ecacdb54f75d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) .name",
+      "targets": [
+        ["css=a:nth-child(2) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a[2]/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//a[2]/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Jones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12744574-1825-4d21-9598-a051c0f01b2a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

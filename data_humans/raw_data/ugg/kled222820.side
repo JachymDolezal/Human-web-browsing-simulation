@@ -1,0 +1,103 @@
+{
+  "id": "2219ac86-df6c-4092-b349-6278d47367c5",
+  "version": "2.0",
+  "name": "kled222820",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "4f24e044-8384-4c0b-88e8-dd47f087b120",
+    "name": "kled222820",
+    "commands": [{
+      "id": "a5e5d0a4-5423-4a6f-b5c0-be81a3e232ea",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5540470-2b94-4108-a083-2275ea0a4f60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1030x994",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a19101-fc8c-4032-bf64-44160cda42f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-47sehv > span",
+      "targets": [
+        ["css=.css-47sehv > span", "css:finder"],
+        ["xpath=//div[@id='qc-cmp2-ui']/div[2]/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "decd5359-247b-4d3e-8593-2a8a9372315d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-47sehv > span",
+      "targets": [
+        ["css=.css-47sehv > span", "css:finder"],
+        ["xpath=//div[@id='qc-cmp2-ui']/div[2]/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e4e392-e9a9-4f09-ab57-5ae945ac23bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c1fb70a-71f8-467e-871c-4f53b0c92a65",
+      "comment": "",
+      "command": "type",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.react-autosuggest__container--open > #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kled"
+    }, {
+      "id": "07efc94d-51fb-4f29-a622-6b1e1bbfaab4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 > .render-suggestion",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 > .render-suggestion", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div", "xpath:idRelative"],
+        ["xpath=//li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddbd66da-b53a-42b4-a9c4-1bd84d941890",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,69)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0847b384-8648-471e-8bf5-ca9dec2e1b58",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4f24e044-8384-4c0b-88e8-dd47f087b120"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

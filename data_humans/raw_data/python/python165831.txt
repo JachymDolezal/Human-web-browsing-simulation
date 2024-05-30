@@ -1,0 +1,4 @@
+20 | https://www.python.org/blogs/
+36 | https://www.python.org/events/
+46 | https://www.python.org/events/python-user-group/1756/
+48 | https://www.python.org/events/python-user-group/1756/

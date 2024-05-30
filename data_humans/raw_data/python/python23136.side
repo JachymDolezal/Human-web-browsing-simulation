@@ -1,0 +1,295 @@
+{
+  "id": "55312cb5-6374-468b-b93c-d1e651f2d67b",
+  "version": "2.0",
+  "name": "https://www.python.org/",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "d41e5c64-ae4f-4e78-b934-bdf96fdeb181",
+    "name": "python23136",
+    "commands": [{
+      "id": "78f08415-4e88-4094-b862-79165037be2a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7253de0-39fb-4330-864d-b606819d6333",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df885c18-f7a8-48ac-be55-e2328d61ade2",
+      "comment": "",
+      "command": "click",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a302c54-5751-4875-a75b-16af0d86de86",
+      "comment": "",
+      "command": "type",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Netherlands"
+    }, {
+      "id": "584b7ade-8694-4ce8-8bb1-fb6b6fd94b1e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6db9536a-8b05-4107-9ceb-7ea2df732459",
+      "comment": "",
+      "command": "click",
+      "target": "css=.python-logo",
+      "targets": [
+        ["css=.python-logo", "css:finder"],
+        ["xpath=//img[@alt='python™']", "xpath:img"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/h1/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7979",
+      "windowTimeout": 2000
+    }, {
+      "id": "1e73dd36-114c-4ceb-9677-e2eeba4929c7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc56f245-7738-421e-a12d-5a0ae29fd0ee",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7979}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aef6a174-e346-4a09-92ae-040c82e5181b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d987001-a299-45fc-91c6-0b16bcde46b8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a05473-c793-4684-b3a5-b2ea09e9bac2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Software Foundation - April 2024 Newsletter",
+      "targets": [
+        ["linkText=Python Software Foundation - April 2024 Newsletter", "linkText"],
+        ["css=.blog-widget li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Software Foundation - April 2024 Newsletter')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mailchi.mp/python/python-software-foundation-december-2023-newsletter-15957293')]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Software Foundation - April 2024 Newsletter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d038f198-75f3-4234-8104-eaac5f4cb9fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Source with Python | Python User Group Ho",
+      "targets": [
+        ["linkText=Open Source with Python | Python User Group Ho", "linkText"],
+        ["css=.event-widget li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Open Source with Python | Python User Group Ho')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1755/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Source with Python | Python User Group Ho')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d035f31-276d-4128-9ce3-564d7aaecabf",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["css=#content", "css:finder"],
+        ["xpath=//div[@id='content']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95bde830-bf5c-45f2-9f8c-8c117c1c55d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TOUFU - Parent-Child Python Programming Workshop",
+      "targets": [
+        ["linkText=TOUFU - Parent-Child Python Programming Workshop", "linkText"],
+        ["css=.event-widget li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TOUFU - Parent-Child Python Programming Workshop')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1757/')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TOUFU - Parent-Child Python Programming Workshop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2230846b-4658-434d-b72d-ac84b5265723",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Launching Python Niger",
+      "targets": [
+        ["linkText=Launching Python Niger", "linkText"],
+        ["css=.event-widget li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Launching Python Niger')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/1711/')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Launching Python Niger')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee03726-5c27-49a9-a37e-b4be1d73f416",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget li:nth-child(4) > a",
+      "targets": [
+        ["css=.event-widget li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'TOUFU - Parent-Child Python Programming Workshop')])[2]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1760/')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d131cdc-d49e-40ba-931c-11976ede5cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget li:nth-child(5) > a",
+      "targets": [
+        ["css=.event-widget li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'TOUFU - Parent-Child Python Programming Workshop')])[3]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1758/')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f419d4-3efe-46e5-9669-127dc82e6ea3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-widget .give-me-more > a",
+      "targets": [
+        ["css=.event-widget .give-me-more > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'More')])[7]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div[2]/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/calendars/')]", "xpath:href"],
+        ["xpath=//div[2]/div/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba162d29-1a46-444e-971b-5445ecb675b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events Calendar",
+      "targets": [
+        ["linkText=Python Events Calendar", "linkText"],
+        ["css=.list > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events Calendar')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/article/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/events/python-events/')])[3]", "xpath:href"],
+        ["xpath=//article/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a883cf68-7c81-4bdb-a090-cf09278213cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .event-title",
+      "targets": [
+        ["css=li:nth-child(4) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[4]/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00826cb5-83fc-40b9-9de2-1c87e484ce33",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .event-title",
+      "targets": [
+        ["css=li:nth-child(4) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[4]/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9325315-66f7-4284-9bb7-75d7d69a0e9f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=li:nth-child(4) > .event-title",
+      "targets": [
+        ["css=li:nth-child(4) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[4]/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52cfcffe-8426-487e-8a42-192dbcc33056",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .event-title",
+      "targets": [
+        ["css=li:nth-child(4) > .event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[4]/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9db62be8-84fb-4d29-81bc-5554928bf38d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d41e5c64-ae4f-4e78-b934-bdf96fdeb181"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

@@ -1,0 +1,194 @@
+{
+  "id": "0412683c-6353-46a3-8621-be9bb9a41fec",
+  "version": "2.0",
+  "name": "python221820",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "5b11350a-96b1-42d9-a3d0-acafce27ac63",
+    "name": "python221820",
+    "commands": [{
+      "id": "fdd61f2d-7295-4aba-8648-7e7bdfeda790",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d231adf-6888-4722-a381-350bebc3fb2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1030x994",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c9a5a51-93b6-4a9f-94d3-541c8e1697cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "292580f3-0ab5-4c3a-a5c2-26d7261f1e3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nether"
+    }, {
+      "id": "e6ae8691-426c-458b-9323-5eb87643f734",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12111ac5-187e-4a82-9a48-9a2fe02fc4d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyGrunn 2024",
+      "targets": [
+        ["linkText=PyGrunn 2024", "linkText"],
+        ["css=.shrubbery li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyGrunn 2024')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/1741/')]", "xpath:href"],
+        ["xpath=//li[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ecb4dcb-342d-4a62-94c2-3496fca0b897",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-event-title",
+      "targets": [
+        ["css=.single-event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aaadee4-594b-4b71-963e-833adb162eb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-event-title",
+      "targets": [
+        ["css=.single-event-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c657b5b8-67c2-4c4d-bf8b-94980a1583e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Groningen, Netherlands",
+      "targets": [
+        ["linkText=Groningen, Netherlands", "linkText"],
+        ["css=.widget-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Groningen, Netherlands')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/aside/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/locations/1407/')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Groningen, Netherlands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67dcad24-adce-4d89-80d4-40f5c36c2b27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-header > h3",
+      "targets": [
+        ["css=.article-header > h3", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//header/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'from the Python Events Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c82824e4-54ac-4c9f-b5e5-f2afc8beb724",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shrubbery > .widget-title",
+      "targets": [
+        ["css=.shrubbery > .widget-title", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Upcoming Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c873bee-5419-4932-8738-220a327b1e51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-header > h3",
+      "targets": [
+        ["css=.article-header > h3", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/header/h3", "xpath:idRelative"],
+        ["xpath=//header/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'from the Python Events Calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b785d4a9-ac1f-4049-bef6-6a19949af10d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-content",
+      "targets": [
+        ["css=.main-content", "css:finder"],
+        ["xpath=//div[@id='content']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbbf84cf-6b4a-4c4e-a6a8-ebb3dfe9970b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ec3991a2-001e-45e4-aff7-92f353892010",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5b11350a-96b1-42d9-a3d0-acafce27ac63"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

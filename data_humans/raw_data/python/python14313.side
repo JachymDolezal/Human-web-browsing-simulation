@@ -1,0 +1,299 @@
+{
+  "id": "c05020b0-9a4d-4b24-b811-797aaac6afe4",
+  "version": "2.0",
+  "name": "python",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "76a6b191-a9ef-42dd-930a-d2627038ac91",
+    "name": "Untitled",
+    "commands": [{
+      "id": "712f8105-5a2e-48f2-b4e4-911925810f21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34662956-2821-4cfc-b4a3-1fa12d12155c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x896",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97550c50-2933-44bb-9929-e98878b153e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-header > .container",
+      "targets": [
+        ["css=.main-header > .container", "css:finder"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div", "xpath:idRelative"],
+        ["xpath=//header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16f16bce-58cc-440d-b3fa-b82f0b0fd5bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc9a8aa6-3619-465b-83bd-be92f0cade04",
+      "comment": "",
+      "command": "type",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "find a name of upcoming python event in Netehrlands"
+    }, {
+      "id": "b27d005b-ab5d-4cc9-8d23-4f86476161a1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=id-search-field",
+      "targets": [
+        ["id=id-search-field", "id"],
+        ["name=q", "name"],
+        ["css=#id-search-field", "css:finder"],
+        ["xpath=//input[@id='id-search-field']", "xpath:attributes"],
+        ["xpath=//div[@id='touchnav-wrapper']/header/div/div/div/form/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e1aaf157-a4f8-47a5-a058-b7e8c5130235",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Events",
+      "targets": [
+        ["linkText=Python Events", "linkText"],
+        ["css=#events .element-1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Python Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Python Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad9e97b-e57f-45b4-815e-6020e7091334",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyGrunn 2024",
+      "targets": [
+        ["linkText=PyGrunn 2024", "linkText"],
+        ["css=li:nth-child(3) > .event-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyGrunn 2024')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li[3]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-events/1741/')]", "xpath:href"],
+        ["xpath=//li[3]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyGrunn 2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a4a8fe1-9139-4e49-b294-22bfc4ae90b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//div[@id='content']/div/aside/div/p[2]/a/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Python events map')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6cd413-3a82-4d04-90c0-0e164be729f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d27ceaf-8221-4ec6-9b76-288a2bdf8a79",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "netherlands"
+    }, {
+      "id": "9ecc3429-7a9e-4598-aca6-70af79da6b8b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bc8ee700-b8e3-459f-b8c7-73de596b1cd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exhibit-facet:nth-child(3) > .exhibit-facet-header",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(3) > .exhibit-facet-header", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f150ee76-4bf6-4db9-bb75-89b6efcd2977",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exhibit-facet:nth-child(2) > .exhibit-facet-body-frame img",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(2) > .exhibit-facet-body-frame img", "css:finder"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d47df84-adb6-4857-8ae9-9ed4ef3b1911",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.exhibit-facet:nth-child(2) > .exhibit-facet-body-frame img",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(2) > .exhibit-facet-body-frame img", "css:finder"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": "2.3125,-219.228515625"
+    }, {
+      "id": "4cd4b9d1-86ca-4570-95c2-7f929bb7fe5f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.exhibit-facet:nth-child(3) > .exhibit-facet-header",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(3) > .exhibit-facet-header", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "324,-7.552734375"
+    }, {
+      "id": "15d3d58a-f142-4f2d-8685-19ac3b48862a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.exhibit-facet:nth-child(3) > .exhibit-facet-header",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(3) > .exhibit-facet-header", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "324,-7.552734375"
+    }, {
+      "id": "cf478264-0d70-49ff-a4f2-5667c7e958d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exhibit-facet:nth-child(2) .exhibit-resizableDivWidget-resizer",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(2) .exhibit-resizableDivWidget-resizer", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b5ac85-777b-42b8-a837-c8c28e5ca9e3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.exhibit-facet:nth-child(2) .exhibit-resizableDivWidget-resizer",
+      "targets": [
+        ["css=.exhibit-facet:nth-child(2) .exhibit-resizableDivWidget-resizer", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d64eb35e-c1b3-48b1-8630-b0bc1a7cbb88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc8fc31-1490-4cb0-964f-68f1f494a9e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77b5dbbd-3ec8-4256-b073-999667e096eb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "809945a1-607e-452d-b9cc-79fb69f87197",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ")"
+    }, {
+      "id": "4ef1574a-0316-497a-b9bf-5cc00bb73bbd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f25e2a48-800c-4d28-b1a7-1bd33fb4ee1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7a5137b2-b06e-4a44-b69b-a2c40b6094e9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["76a6b191-a9ef-42dd-930a-d2627038ac91"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

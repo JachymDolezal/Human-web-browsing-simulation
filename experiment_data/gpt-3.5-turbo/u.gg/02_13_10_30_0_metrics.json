@@ -1,0 +1,57 @@
+{
+    "exit": true,
+    "goal_complete": true,
+    "action_count": 3,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 0,
+        "Exit": 1,
+        "Retrieve": 1
+    },
+    "simulation_length": 24.795248985290527,
+    "average_time_per_action": 8.265082995096842,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I should use the search bar to find counters for Ahri.",
+                "Action": "use a search bar",
+                "Action_Context": "Ahri counters"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions",
+            "epoch_timestamp": 1714648203.742891
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I should retrieve the text summary on countering Ahri.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "Ahri counter summary"
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714648217.611444
+        },
+        {
+            "action_type": "Exit",
+            "action_data": {
+                "Thought": "I have identified the best Mid Lane champion to counter Ahri in LoL Patch 14.9, focusing on wave damage and healing for successful trade damage predictions.",
+                "Action": "exit",
+                "Action_Context": ""
+            },
+            "goal": "Find counters for Ahri",
+            "current_url": "https://u.gg/lol/champions/ahri/counter",
+            "epoch_timestamp": 1714648228.53814
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

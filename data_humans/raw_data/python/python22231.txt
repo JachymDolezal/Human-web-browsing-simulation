@@ -1,0 +1,8 @@
+5 | https://www.python.org/blogs/
+11 | https://www.python.org/events/python-events/
+16 | https://www.python.org/events/python-events/
+17 | https://www.python.org/events/python-events/
+22 | https://www.python.org/events/python-events/
+25 | https://www.python.org/events/python-events/1741/
+29 | https://www.python.org/events/python-events/1741/
+30 | https://www.python.org/events/python-events/1741/

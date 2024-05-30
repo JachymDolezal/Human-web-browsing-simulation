@@ -1,0 +1,130 @@
+{
+  "id": "1eb319ba-6728-4b7e-a448-57bed11ed183",
+  "version": "2.0",
+  "name": "tomato222520",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "6ab9f876-1929-4744-bced-d6f5a987d6fe",
+    "name": "tomato",
+    "commands": [{
+      "id": "fb1946ef-74eb-4654-8cdb-a85774bb8a16",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a58e4240-7e02-4928-bb2b-5e68f8f4710a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1030x994",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e14ee27b-520d-45a3-ac20-31c89532efc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae83a9d-a571-435d-bc1b-9e7baa6de485",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46740511-3367-4c06-9009-ccbd9ab97731",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8250bcf1-a42f-4fb9-af5d-265215a78aa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57905736-227a-447b-a1ea-f74dc5044554",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Monty Python and "
+    }, {
+      "id": "6fff03a3-8083-425f-bfc2-008e68e31ca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(1) search-algolia-results-item-deprecated", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li/a/search-algolia-results-item-deprecated", "xpath:idRelative"],
+        ["xpath=//search-algolia-results-item-deprecated", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a426a5d7-e10b-44fb-9d4f-9e6a62e69213",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "694f5352-8995-4ecf-ba77-dba3a9b16468",
+      "comment": "",
+      "command": "click",
+      "target": "css=.more-like-this",
+      "targets": [
+        ["css=.more-like-this", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[6]/section", "xpath:idRelative"],
+        ["xpath=//div[6]/section", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1016ff5-f4df-49c6-9e3c-98efc02d27bc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ab9f876-1929-4744-bced-d6f5a987d6fe"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

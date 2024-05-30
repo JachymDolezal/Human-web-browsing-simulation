@@ -1,0 +1,63 @@
+{
+  "id": "50f6929e-f4d8-4979-9a3a-b3fc674ca081",
+  "version": "2.0",
+  "name": "dictionary12091",
+  "url": "https://dictionary.cambridge.org",
+  "tests": [{
+    "id": "1e313b73-6fc0-4fa3-8360-3dfc6bebcaf7",
+    "name": "dictionary12091",
+    "commands": [{
+      "id": "7240c385-c219-426a-a73d-55a0db8b22a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff6b912a-453b-4dfa-946b-2abb7a65d65e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "896x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d0afca7-0b38-4ede-bc07-cfdb967bd197",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fungus"
+    }, {
+      "id": "8a3966fb-0b56-42c8-aeab-48f8164ec4f8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchword",
+      "targets": [
+        ["id=searchword", "id"],
+        ["name=q", "name"],
+        ["css=#searchword", "css:finder"],
+        ["xpath=//input[@id='searchword']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "caa4b417-11e2-4bd1-99c4-a559dd9baa9f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e313b73-6fc0-4fa3-8360-3dfc6bebcaf7"]
+  }],
+  "urls": ["https://dictionary.cambridge.org/"],
+  "plugins": []
+}

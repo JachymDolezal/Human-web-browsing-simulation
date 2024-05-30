@@ -1,0 +1,12 @@
+{
+    "website": "https://www.python.org/",
+    "goal": "Find names of upcoming events in USA",
+    "request_rate": 30,
+    "persona": "generic",
+    "llm_provider": "openai",
+    "model_name": "gpt-4-turbo",
+    "temperature": 0.45,
+    "verbose": true,
+    "initial_timeout": 3,
+    "timeout_per_action": 0
+}

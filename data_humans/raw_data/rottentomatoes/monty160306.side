@@ -1,0 +1,186 @@
+{
+  "id": "27751320-4077-41ab-a86b-05f404617489",
+  "version": "2.0",
+  "name": "monty",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "bc833cd2-f3f8-4731-92c7-ea66cf6ac4de",
+    "name": "monty",
+    "commands": [{
+      "id": "2b9591c7-7bae-441d-9f36-f6aff65d7404",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b878dc92-2247-4b5b-a41c-37ce64b857a2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1313",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4e1a4d2-fdbe-4734-8e02-fb6df75b39b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-reject-all-handler",
+      "targets": [
+        ["id=onetrust-reject-all-handler", "id"],
+        ["css=#onetrust-reject-all-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-reject-all-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Reject All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd376294-216a-45a3-a1ea-5c4c4023195f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=onetrust-reject-all-handler",
+      "targets": [
+        ["id=onetrust-reject-all-handler", "id"],
+        ["css=#onetrust-reject-all-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-reject-all-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Reject All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc17953c-7fd3-4564-935d-1535b144c44f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=onetrust-reject-all-handler",
+      "targets": [
+        ["id=onetrust-reject-all-handler", "id"],
+        ["css=#onetrust-reject-all-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-reject-all-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Reject All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57675b91-ca68-432a-8296-f4836860a8e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#spotlight1 img",
+      "targets": [
+        ["css=#spotlight1 img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://resizing.flixster.com/Ozi4ydTaVZ0R3LozLY5acTU6Xok=/540x610/v2/https://images.fandango.com/cms/assets/0d154260-f924-11ee-9cd3-0ba10eb10e8f--jaw2.jpg')]", "xpath:img"],
+        ["xpath=//a[@id='spotlight1']/editorial-spotlight-tile/img", "xpath:idRelative"],
+        ["xpath=//a[9]/editorial-spotlight-tile/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7b348c-6f1c-4bdc-a7fe-834905ebc012",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f83d1afa-5a74-43e2-ab13-454908c84211",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "monty python and the holy grail"
+    }, {
+      "id": "7ce04fa0-8721-4792-a78e-29ef302c43e9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "71daaf92-58ad-4ec8-87fd-63bdcb0d14d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monty Python and the Holy Grail",
+      "targets": [
+        ["linkText=Monty Python and the Holy Grail", "linkText"],
+        ["css=search-page-result:nth-child(2) .unset:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Monty Python and the Holy Grail')]", "xpath:link"],
+        ["xpath=//div[@id='search-results']/search-page-result/ul/search-page-media-row/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.rottentomatoes.com/m/monty_python_and_the_holy_grail')])[2]", "xpath:href"],
+        ["xpath=//search-page-media-row/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37eaa8e5-bb17-4119-a2b7-167dbabfe62c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": "61.5,14.5625"
+    }, {
+      "id": "041a1cc0-8046-49de-88c3-2ec521d928b2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": "61.5,14.5625"
+    }, {
+      "id": "cda921ab-7d3c-46f3-98a7-5b5088aec3d2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": "61.5,14.5625"
+    }, {
+      "id": "e64d73fd-ed87-4486-995c-0019ddcf35a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cast-and-crew",
+      "targets": [
+        ["css=.cast-and-crew", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section", "xpath:idRelative"],
+        ["xpath=//div[5]/section", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4bdecc94-7755-4c53-b085-89c0d28c3c22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bc833cd2-f3f8-4731-92c7-ea66cf6ac4de"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

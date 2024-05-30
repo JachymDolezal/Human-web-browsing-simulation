@@ -1,0 +1,167 @@
+{
+    "exit": false,
+    "goal_complete": false,
+    "action_count": 13,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 9,
+        "Exit": 0,
+        "Retrieve": 3
+    },
+    "simulation_length": 264.608647108078,
+    "average_time_per_action": 20.354511316006,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find the definition of Apple on the Wikipedia website.",
+                "Action": "use a search bar",
+                "Action_Context": "Apple"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://www.wikipedia.org/",
+            "epoch_timestamp": 1714650749.618111
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the text from the current page to find the definition of Apple.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "https://en.wikipedia.org/wiki/Apple"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple",
+            "epoch_timestamp": 1714650768.725444
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Description' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Description"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple",
+            "epoch_timestamp": 1714650791.205048
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Etymology' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Etymology"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650809.318343
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Description' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Description"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Etymology",
+            "epoch_timestamp": 1714650827.937787
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Etymology' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Etymology"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650848.00161
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the text from the current page to find the definition of Apple.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "https://en.wikipedia.org/wiki/Apple#Description"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650873.770188
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Description' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Description"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650895.542473
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Malus pumila' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Malus pumila"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650913.892066
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Malus domestica' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Malus domestica"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650939.781446
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the text from the current page as it contains the definition of Apple.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "Text from the current page contains the definition of Apple."
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650964.604066
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Malus domestica' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Malus domestica"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714650986.708546
+        },
+        {
+            "action_type": "Click",
+            "action_data": {
+                "Thought": "I will click on the 'Malus domestica' link to find the definition of Apple on the Wikipedia page.",
+                "Action": "click on link/button",
+                "Action_Context": "Malus domestica"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple#Description",
+            "epoch_timestamp": 1714651014.226758
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

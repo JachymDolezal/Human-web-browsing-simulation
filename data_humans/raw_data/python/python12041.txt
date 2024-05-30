@@ -1,0 +1,5 @@
+19 | https://www.python.org/events/calendars/
+21 | https://www.python.org/events/python-events/
+35 | https://www.python.org/events/python-events/?page=2
+35 | https://www.python.org/events/python-events/?page=2
+42 | https://www.python.org/events/python-events/?page=2

@@ -1,0 +1,198 @@
+{
+  "id": "0585930a-bc48-4146-90a2-bdf1fcfa4256",
+  "version": "2.0",
+  "name": "jerry",
+  "url": "https://u.gg",
+  "tests": [{
+    "id": "ed1773f5-5e77-4171-883c-47ca1a421110",
+    "name": "u",
+    "commands": [{
+      "id": "c42a9e72-4ffb-444b-9562-a1912b3194f1",
+      "comment": "",
+      "command": "open",
+      "target": "/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01ab16bb-8a94-42d6-a98f-3be4d1701396",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13ba1f9d-7315-456d-ab68-5bd6f62f89b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-link:nth-child(66) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(66) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[66]/div", "xpath:idRelative"],
+        ["xpath=//a[66]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5195120-dbe8-4b71-b310-7477b5cd18d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76cb8d91-345b-45d8-bdaf-fe066a05e6c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b517c5-9e1d-4e0b-8957-03a38a48507a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "496bd39f-d623-4b4e-877d-a7c02ef418e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fd3d5e9-105c-401d-b024-236da06ba633",
+      "comment": "",
+      "command": "click",
+      "target": "css=.best-win-rate:nth-child(1) .champion-name",
+      "targets": [
+        ["css=.best-win-rate:nth-child(1) .champion-name", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div/div[2]/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baee3499-ac55-4fb7-bc12-c7ed65f607b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a0ade50-dbea-460c-9a55-3e47c629b138",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(3) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(3) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[3]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb98a972-3e52-4ce2-846a-9f4b303c9ae1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de985ee5-0ae1-48ed-a2c4-7b086e726fb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca11279e-bae0-48e6-8b89-7552f8f3f18e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a34506a-9ea1-455b-a658-6571c2f4b2fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-guide",
+      "targets": [
+        ["css=.video-guide", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[5]/div/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de2c41b1-357f-499f-a926-792271d4a6c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "485168cf-dc13-47ce-8594-96ad8ee2cb4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a983957-a835-46f0-aad0-ed43160c5b4a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.champion-name:nth-child(1)",
+      "targets": [
+        ["css=.champion-name:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fiora')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c4e6e4ce-4944-4348-a53a-5ada652519bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed1773f5-5e77-4171-883c-47ca1a421110"]
+  }],
+  "urls": ["https://u.gg/"],
+  "plugins": []
+}

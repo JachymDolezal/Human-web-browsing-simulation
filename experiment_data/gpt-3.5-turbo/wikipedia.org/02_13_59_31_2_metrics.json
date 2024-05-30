@@ -1,0 +1,46 @@
+{
+    "exit": false,
+    "goal_complete": true,
+    "action_count": 2,
+    "action_per_type": {
+        "Search": 1,
+        "Click": 0,
+        "Exit": 0,
+        "Retrieve": 1
+    },
+    "simulation_length": 16.997143983840942,
+    "average_time_per_action": 8.498571991920471,
+    "raw_data": [
+        {
+            "action_type": "Search",
+            "action_data": {
+                "Thought": "I will use the search bar to find the definition of Apple.",
+                "Action": "use a search bar",
+                "Action_Context": "Apple"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://www.wikipedia.org/",
+            "epoch_timestamp": 1714651033.238448
+        },
+        {
+            "action_type": "Retrieve",
+            "action_data": {
+                "Thought": "I will retrieve the text from the current page to find the definition of Apple.",
+                "Action": "retrieve text from current page",
+                "Action_Context": "Apple"
+            },
+            "goal": "Find definition of Apple",
+            "current_url": "https://en.wikipedia.org/wiki/Apple",
+            "epoch_timestamp": 1714651050.235592
+        }
+    ],
+    "logs": {
+        "raw_data": [],
+        "count_per_level": {
+            "DEBUG": 0,
+            "INFO": 0,
+            "WARNING": 0,
+            "ERROR": 0
+        }
+    }
+}

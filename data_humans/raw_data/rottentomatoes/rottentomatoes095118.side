@@ -1,0 +1,220 @@
+{
+  "id": "f9bb7eb0-b8d9-4cfd-a981-507dc3b38257",
+  "version": "2.0",
+  "name": "tomato",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "977b871e-1916-4a19-8d3e-b66313d459ee",
+    "name": "rottentomato095118",
+    "commands": [{
+      "id": "7d6a7674-2384-40e0-9844-5595f23745d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d28739c7-0e2b-44de-a250-2c067c89aa7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1614x874",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "167ec6f7-edfd-4ea0-873f-8eb22f3f5bdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onetrust-pc-dark-filter",
+      "targets": [
+        ["css=.onetrust-pc-dark-filter", "css:finder"],
+        ["xpath=//div[@id='onetrust-consent-sdk']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c043484-79ce-40af-831d-e70b02c669c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "408c56db-0470-49e4-a04e-72e82f45dc46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d2406d-a865-4a53-b37e-390bc23d11ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f77968-86fb-40bc-abf2-69f276506c4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6abb62af-b6ce-4aac-8f0c-2ca4e8f4dbc9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "The Holy Grail"
+    }, {
+      "id": "bcf36809-c1f1-4fb3-930d-1cb8aba49be1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e58e3641-f63b-4da8-b384-f802d5054d47",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monty Python and the Holy Grail",
+      "targets": [
+        ["linkText=Monty Python and the Holy Grail", "linkText"],
+        ["css=search-page-result:nth-child(2) search-page-media-row:nth-child(1) > .unset:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Monty Python and the Holy Grail')]", "xpath:link"],
+        ["xpath=//div[@id='search-results']/search-page-result/ul/search-page-media-row/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.rottentomatoes.com/m/monty_python_and_the_holy_grail')])[2]", "xpath:href"],
+        ["xpath=//search-page-media-row/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8384",
+      "windowTimeout": 2000
+    }, {
+      "id": "f3992623-ba24-49d6-86c8-6a1efdb898f3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5af43bfa-9e17-4dcf-869a-d9f024ced339",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8384}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee0e2cf0-1d44-48a5-9500-56a665d11f98",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26.66666603088379)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b070223a-f64a-423a-89c7-71e8bc56d481",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b569b33-01c0-4cf7-b189-3132f67c4f0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-info",
+      "targets": [
+        ["css=.media-info", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[11]/section", "xpath:idRelative"],
+        ["xpath=//div[11]/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4dd20ce-9b3e-46c0-9ce5-b668ee683d04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-wrap:nth-child(1)",
+      "targets": [
+        ["css=.category-wrap:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[11]/section/div[2]/dl/div", "xpath:idRelative"],
+        ["xpath=//dl/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "895bd826-9356-4a7b-a682-314c6d3382f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.synopsis-wrap > rt-text:nth-child(2)",
+      "targets": [
+        ["css=.synopsis-wrap > rt-text:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[11]/section/div[2]/div/rt-text[2]", "xpath:idRelative"],
+        ["xpath=//div/rt-text[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f5054d-5c50-4ed0-bd29-52075069f68a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.category-wrap:nth-child(1)",
+      "targets": [
+        ["css=.category-wrap:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[11]/section/div[2]/dl/div", "xpath:idRelative"],
+        ["xpath=//dl/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac51ce23-a613-4a0d-8789-e4089f7cc435",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "21b93d25-c2d4-446b-805b-f0fbd67021b0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["977b871e-1916-4a19-8d3e-b66313d459ee"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

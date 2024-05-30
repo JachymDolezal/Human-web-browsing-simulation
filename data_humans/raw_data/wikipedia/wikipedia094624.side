@@ -1,0 +1,122 @@
+{
+  "id": "39f55986-48ec-4bce-be52-1d65685934e5",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "5432efe3-1141-4d84-b86a-5dff0574b733",
+    "name": "wikipedia094624",
+    "commands": [{
+      "id": "3a26ce39-afc2-47ce-beae-8c9fc74c4b27",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25a150f1-43c6-4703-89c4-dca31aaf151b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f47455e-e51e-48cb-bcd5-ca8ca7691673",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1164bd-b014-4882-bf41-e7d49cb95382",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Václa"
+    }, {
+      "id": "549a8b0c-0da2-4df4-bacb-840344d7fead",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .suggestion-description",
+      "targets": [
+        ["css=.active .suggestion-description", "css:finder"],
+        ["xpath=//div[@id='typeahead-suggestions']/div/a/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'český disident, dramatik, esejista a politik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "899c8c20-2ec2-4ae1-8709-4582719ffbaa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=p:nth-child(5) > a:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(5) > a:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'29. prosince')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[3]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/29._prosinec')])[2]", "xpath:href"],
+        ["xpath=//p[3]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f37af8c-3b83-4d05-9576-4df447c0f87c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-\\17Divot > .cdx-button",
+      "targets": [
+        ["css=#toc-\\17Divot > .cdx-button", "css:finder"],
+        ["xpath=//li[@id='toc-Život']/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Přepnout podsekci Život')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "307468cc-a6a3-4b9f-abe1-1c17bf1c7505",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[@id='toc-Mládí']/a/div",
+      "targets": [
+        ["xpath=//li[@id='toc-Mládí']/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c8974f-193f-4e35-b806-30f07eed8da2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e564372-a93d-45c7-b4fe-c6889bff2e44",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5432efe3-1141-4d84-b86a-5dff0574b733"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

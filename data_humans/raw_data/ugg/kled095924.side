@@ -1,0 +1,180 @@
+{
+  "id": "5204306c-f7d3-4007-8e50-0f11d5ab2ae4",
+  "version": "2.0",
+  "name": "lolChamp",
+  "url": "https://u.gg/lol/champions",
+  "tests": [{
+    "id": "36024169-78a2-4cf9-9ac9-03411395694b",
+    "name": "Kled095924",
+    "commands": [{
+      "id": "497db0de-7d38-4c77-8e49-544e8d7034ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://u.gg/lol/champions",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfac0e39-4e42-42f6-a9e8-2f7dfc3456c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4602975-28c8-4add-a963-b70c03ee69b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-47sehv",
+      "targets": [
+        ["css=.css-47sehv", "css:finder"],
+        ["xpath=//div[@id='qc-cmp2-ui']/div[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd37f9f-cbf2-40da-9299-f0f1c53d57df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.champion-link:nth-child(24) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(24) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[24]/div", "xpath:idRelative"],
+        ["xpath=//a[24]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67eca892-825e-43d6-b79b-80da53b51377",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.champion-link:nth-child(24) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(24) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[24]/div", "xpath:idRelative"],
+        ["xpath=//a[24]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f8e87d-6421-44e7-b108-16c66db27adb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.champion-link:nth-child(16) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(16) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[16]/div", "xpath:idRelative"],
+        ["xpath=//a[16]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a686f05-5efc-4fa3-8f21-4e9c12ffd90b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.champion-link:nth-child(16) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(16) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[16]/div", "xpath:idRelative"],
+        ["xpath=//a[16]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b658b2d-061c-4536-9981-c4b39633d6bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.champion-link:nth-child(8) > .image-wrapper",
+      "targets": [
+        ["css=.champion-link:nth-child(8) > .image-wrapper", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/div[2]/a[8]/div", "xpath:idRelative"],
+        ["xpath=//a[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4d21c12-2135-4e6c-a557-4ea1ea8000f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.masthead-ugg-search-bar:nth-child(1) #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ab6a59-e7bd-4312-9e27-28f9914eaa56",
+      "comment": "",
+      "command": "type",
+      "target": "id=super-search-bar",
+      "targets": [
+        ["id=super-search-bar", "id"],
+        ["name=query", "name"],
+        ["css=.react-autosuggest__container--open > #super-search-bar", "css:finder"],
+        ["xpath=//input[@id='super-search-bar']", "xpath:attributes"],
+        ["xpath=//div[@id='masthead']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kled"
+    }, {
+      "id": "97cc585e-6b70-4784-a617-1b622ca5b2e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .suggest-text",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .suggest-text", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e51e410-310a-4fbb-9837-0bdc8c4a8d33",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,114)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dc30193-3501-4ad6-8d79-0ab967a6fb98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label",
+      "targets": [
+        ["css=.media-query_TABLET__DESKTOP_LARGE div:nth-child(5) .inactive-label", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e984b95-ae9e-434f-ad31-e8865f79855a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73587cd-ab02-4c8a-904e-82ece42c26c7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)",
+      "targets": [
+        ["css=.page-nav-container:nth-child(2) div:nth-child(5) .tab-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/div[2]/div/div/div[5]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[5]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7039d3bd-8e63-41ea-a918-12c881344b00",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36024169-78a2-4cf9-9ac9-03411395694b"]
+  }],
+  "urls": [],
+  "plugins": []
+}

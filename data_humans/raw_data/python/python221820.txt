@@ -1,0 +1,12 @@
+9 | https://www.python.org/
+13 | https://www.python.org/
+14 | https://www.python.org/events/python-events/
+20 | https://python.org/python-events/1741/
+32 | https://python.org/python-events/1741/
+35 | https://python.org/python-events/1741/
+36 | https://python.org/python-events/1741/
+55 | https://python.org/python-events/locations/1407/
+57 | https://python.org/python-events/locations/1407/
+58 | https://python.org/python-events/locations/1407/
+59 | https://python.org/python-events/locations/1407/
+64 | https://python.org/python-events/

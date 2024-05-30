@@ -1,0 +1,61 @@
+{
+  "id": "3d48929b-a8f0-4ca8-bf66-22b1763d41bc",
+  "version": "2.0",
+  "name": "https://python.org/",
+  "url": "https://www.python.org",
+  "tests": [{
+    "id": "516cbc8f-dea7-41d9-a55d-fc6d3d1fbb0a",
+    "name": "python151716",
+    "commands": [{
+      "id": "2b9cc4f0-ad1c-453d-a8ba-2d5e3cc601f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec9755c0-fbed-4000-a18d-283bacdd9fcd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e091e91-43ac-4158-b630-02797eb8dd23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c39ebe6f-d175-433c-9297-9793a6e6a44d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-recent-events",
+      "targets": [
+        ["css=.list-recent-events", "css:finder"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul", "xpath:idRelative"],
+        ["xpath=//section/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5a877de7-7fa6-4455-9061-09fd26876e9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["516cbc8f-dea7-41d9-a55d-fc6d3d1fbb0a"]
+  }],
+  "urls": ["https://www.python.org/"],
+  "plugins": []
+}

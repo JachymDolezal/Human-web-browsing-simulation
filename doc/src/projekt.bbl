@@ -1,0 +1,256 @@
+\makeatletter
+\makeatother
+\begin{thebibliography}{10}
+
+\bibitem{adams2017aipowered}
+{\sc\bgroup}Adams{\egroup}, T.
+\newblock {\em AI-Powered Social Bots}.
+\newblock 2017.
+
+\bibitem{aher2023using}
+{\sc\bgroup}Aher{\egroup}, G., {\sc\bgroup}Arriaga{\egroup}, R.~I.
+  and~{\sc\bgroup}Kalai{\egroup}, A.~T.
+\newblock {\em Using Large Language Models to Simulate Multiple Humans and
+  Replicate Human Subject Studies}.
+\newblock 2023.
+
+\bibitem{amatriain2023transformer}
+{\sc\bgroup}Amatriain{\egroup}, X., {\sc\bgroup}Sankar{\egroup}, A.,
+  {\sc\bgroup}Bing{\egroup}, J., {\sc\bgroup}Bodigutla{\egroup}, P.~K.,
+  {\sc\bgroup}Hazen{\egroup}, T.~J. et~al.
+\newblock {\em Transformer models: an introduction and catalog}.
+\newblock 2023.
+
+\bibitem{andrew_2023}
+{\sc\bgroup}Andrew{\egroup}.
+\newblock {\em A brief history of LLaMA models - AGI Sphere}.
+\newblock Apr 2023.
+\newblock Available at: ~{\small\url{https://agi-sphere.com/llama-models/}}.
+
+\bibitem{markovmodel}
+{\sc\bgroup}Awad{\egroup}, M. and~{\sc\bgroup}Khalil{\egroup}, I.
+\newblock {\em Prediction of User's Web-Browsing Behavior: Application of
+  Markov Model}.
+\newblock March 2012.
+\newblock DOI: 10.1109/TSMCB.2012.2187441.
+
+\bibitem{gpt3}
+{\sc\bgroup}Brown{\egroup}, T.~B., {\sc\bgroup}Mann{\egroup}, B.,
+  {\sc\bgroup}Ryder{\egroup}, N., {\sc\bgroup}Subbiah{\egroup}, M.,
+  {\sc\bgroup}Kaplan{\egroup}, J. et~al.
+\newblock {\em Language Models are Few-Shot Learners}.
+\newblock 2020.
+
+\bibitem{devtools}
+{\em Chrome DevTools Protocol}.
+\newblock 2024.
+\newblock Available at:
+  ~{\small\url{https://chromedevtools.github.io/devtools-protocol/}}.
+
+\bibitem{devlin2019bert}
+{\sc\bgroup}Devlin{\egroup}, J., {\sc\bgroup}Chang{\egroup}, M.-W.,
+  {\sc\bgroup}Lee{\egroup}, K. and~{\sc\bgroup}Toutanova{\egroup}, K.
+\newblock {\em BERT: Pre-training of Deep Bidirectional Transformers for
+  Language Understanding}.
+\newblock 2019.
+
+\bibitem{chromedriver}
+{\sc\bgroup}for{\egroup}, W.
+\newblock {\em ChromeDriver - WebDriver for Chrome}.
+\newblock 2024.
+\newblock Available at: ~{\small\url{https://chromedriver.chromium.org/}}.
+
+\bibitem{form_2019}
+{\sc\bgroup}Form{\egroup}, R.
+\newblock {\em Request Form}.
+\newblock 2019.
+\newblock Available at:
+  ~{\small\url{https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform}}.
+
+\bibitem{geckodriver}
+{\em Geckodriver}.
+\newblock Jan 2024.
+\newblock Available at: ~{\small\url{https://github.com/mozilla/geckodriver/}}.
+
+\bibitem{llamablog}
+{\sc\bgroup}Meta{\egroup}.
+\newblock {\em Introducing LLaMA}.
+\newblock 2023.
+\newblock Available at:
+  ~{\small\url{https://ai.meta.com/blog/large-language-model-llama-meta-ai/}}.
+
+\bibitem{jiang2023mistral}
+{\sc\bgroup}Jiang{\egroup}, A.~Q., {\sc\bgroup}Sablayrolles{\egroup}, A.,
+  {\sc\bgroup}Mensch{\egroup}, A., {\sc\bgroup}Bamford{\egroup}, C.,
+  {\sc\bgroup}Chaplot{\egroup}, D.~S. et~al.
+\newblock {\em Mistral 7B}.
+\newblock 2023.
+
+\bibitem{evasivebots}
+{\sc\bgroup}Jin{\egroup}, J., {\sc\bgroup}Offutt{\egroup}, J.,
+  {\sc\bgroup}Zheng{\egroup}, N., {\sc\bgroup}Mao{\egroup}, F.,
+  {\sc\bgroup}Koehl{\egroup}, A. et~al.
+\newblock {\em Evasive bots masquerading as human beings on the web}.
+\newblock {IEEE} Computer Society, 2013.
+\newblock DOI: 10.1109/DSN.2013.6575366.
+\newblock Available at:
+  ~{\small\url{https://doi.org/10.1109/DSN.2013.6575366}}.
+
+\bibitem{keary_2023}
+{\sc\bgroup}Keary{\egroup}, T.
+\newblock {\em Prompt Injection Attack}.
+\newblock Sep 2023.
+\newblock Available at:
+  ~{\small\url{https://www.techopedia.com/definition/prompt-injection-attack}}.
+
+\bibitem{langchain_2023}
+{\sc\bgroup}langchain{\egroup}.
+\newblock {\em Https://www.langchain.com/}.
+\newblock 2023.
+\newblock Available at: ~{\small\url{https://www.langchain.com/}}.
+
+\bibitem{dom}
+{\em Level 1 Document Object Model Specification}.
+\newblock 2024.
+\newblock Available at: ~{\small\url{https://www.w3.org/TR/WD-DOM/}}.
+
+\bibitem{liu2019roberta}
+{\sc\bgroup}Liu{\egroup}, Y., {\sc\bgroup}Ott{\egroup}, M.,
+  {\sc\bgroup}Goyal{\egroup}, N., {\sc\bgroup}Du{\egroup}, J.,
+  {\sc\bgroup}Joshi{\egroup}, M. et~al.
+\newblock {\em RoBERTa: A Robustly Optimized BERT Pretraining Approach}.
+\newblock 2019.
+
+\bibitem{llama_2014}
+{\em LLaMA}.
+\newblock 2014.
+\newblock Available at:
+  ~{\small\url{https://huggingface.co/docs/transformers/main/en/model_doc/llama}}.
+
+\bibitem{naveed2023comprehensive}
+{\sc\bgroup}Naveed{\egroup}, H., {\sc\bgroup}Khan{\egroup}, A.~U.,
+  {\sc\bgroup}Qiu{\egroup}, S., {\sc\bgroup}Saqib{\egroup}, M.,
+  {\sc\bgroup}Anwar{\egroup}, S. et~al.
+\newblock {\em A Comprehensive Overview of Large Language Models}.
+\newblock 2023.
+
+\bibitem{rag}
+{\sc\bgroup}promptingguide.ai{\egroup}.
+\newblock {\em Retrieval augmented generation}.
+\newblock 2021.
+\newblock Available at:
+  ~{\small\url{https://www.promptingguide.ai/techniques/rag}}.
+
+\bibitem{qian2023communicative}
+{\sc\bgroup}Qian{\egroup}, C., {\sc\bgroup}Cong{\egroup}, X.,
+  {\sc\bgroup}Liu{\egroup}, W., {\sc\bgroup}Yang{\egroup}, C.,
+  {\sc\bgroup}Chen{\egroup}, W. et~al.
+\newblock {\em Communicative Agents for Software Development}.
+\newblock 2023.
+
+\bibitem{Radford2019LanguageMA}
+{\sc\bgroup}Radford{\egroup}, A., {\sc\bgroup}Wu{\egroup}, J.,
+  {\sc\bgroup}Child{\egroup}, R., {\sc\bgroup}Luan{\egroup}, D.,
+  {\sc\bgroup}Amodei{\egroup}, D. et~al.
+\newblock {\em Language Models are Unsupervised Multitask Learners}.
+\newblock 2019.
+\newblock Available at:
+  ~{\small\url{https://api.semanticscholar.org/CorpusID:160025533}}.
+
+\bibitem{illustrating}
+{\sc\bgroup}Lambert{\egroup}, N.
+\newblock {\em Reinforcement learning from human feedback}.
+\newblock 2022.
+\newblock Available at: ~{\small\url{https://huggingface.co/blog/rlhf}}.
+
+\bibitem{selenium_2023}
+{\sc\bgroup}Selenium{\egroup}.
+\newblock {\em Selenium}.
+\newblock 2023.
+\newblock Available at: ~{\small\url{https://www.selenium.dev/}}.
+
+\bibitem{semantickernel}
+{\em Semantic-kernel}.
+\newblock Jan 2024.
+\newblock Available at:
+  ~{\small\url{https://github.com/microsoft/semantic-kernel}}.
+
+\bibitem{indexingweb}
+{\sc\bgroup}Szymanski{\egroup}, B. and~{\sc\bgroup}Chung{\egroup}, M.-S.
+\newblock {\em A method for indexing Web pages using Web bots}.
+\newblock 2001.
+\newblock DOI: 10.1109/ICII.2001.983028.
+
+\bibitem{touvron2023llama}
+{\sc\bgroup}Touvron{\egroup}, H., {\sc\bgroup}Lavril{\egroup}, T.,
+  {\sc\bgroup}Izacard{\egroup}, G., {\sc\bgroup}Martinet{\egroup}, X.,
+  {\sc\bgroup}Lachaux{\egroup}, M.-A. et~al.
+\newblock {\em LLaMA: Open and Efficient Foundation Language Models}.
+\newblock 2023.
+
+\bibitem{jailbreaking}
+{\sc\bgroup}Varkey{\egroup}, B.
+\newblock {\em Large language models: techniques, examples, prevention methods
+  | lakera – protecting ai teams that disrupt the world}.
+\newblock 2023.
+\newblock Available at:
+  ~{\small\url{https://www.lakera.ai/blog/jailbreaking-large-language-models-guide}}.
+
+\bibitem{attention}
+{\sc\bgroup}Vaswani{\egroup}, A., {\sc\bgroup}Shazeer{\egroup}, N.,
+  {\sc\bgroup}Parmar{\egroup}, N., {\sc\bgroup}Uszkoreit{\egroup}, J.,
+  {\sc\bgroup}Jones{\egroup}, L. et~al.
+\newblock {\em Attention Is All You Need}.
+\newblock 2023.
+
+\bibitem{webdriver_2018}
+{\em WebDriver}.
+\newblock Jun 2018.
+\newblock Available at: ~{\small\url{https://www.w3.org/TR/webdriver1/}}.
+
+\bibitem{xiao2023efficient}
+{\sc\bgroup}Xiao{\egroup}, G., {\sc\bgroup}Tian{\egroup}, Y.,
+  {\sc\bgroup}Chen{\egroup}, B., {\sc\bgroup}Han{\egroup}, S.
+  and~{\sc\bgroup}Lewis{\egroup}, M.
+\newblock {\em Efficient Streaming Language Models with Attention Sinks}.
+\newblock 2023.
+
+\bibitem{inproceedings}
+{\sc\bgroup}Yang{\egroup}, Y., {\sc\bgroup}Vlajic{\egroup}, N.
+  and~{\sc\bgroup}Nguyen{\egroup}, U.
+\newblock {\em Next Generation of Impersonator Bots: Mimicking Human Browsing
+  on Previously Unvisited Sites}.
+\newblock November 2015.
+\newblock DOI: 10.1109/CSCloud.2015.93.
+
+\bibitem{yao2023react}
+{\sc\bgroup}Yao{\egroup}, S., {\sc\bgroup}Zhao{\egroup}, J.,
+  {\sc\bgroup}Yu{\egroup}, D., {\sc\bgroup}Du{\egroup}, N.,
+  {\sc\bgroup}Shafran{\egroup}, I. et~al.
+\newblock {\em ReAct: Synergizing Reasoning and Acting in Language Models}.
+\newblock 2023.
+
+\bibitem{ye2023comprehensive}
+{\sc\bgroup}Ye{\egroup}, J., {\sc\bgroup}Chen{\egroup}, X.,
+  {\sc\bgroup}Xu{\egroup}, N., {\sc\bgroup}Zu{\egroup}, C.,
+  {\sc\bgroup}Shao{\egroup}, Z. et~al.
+\newblock {\em A Comprehensive Capability Analysis of GPT-3 and GPT-3.5 Series
+  Models}.
+\newblock 2023.
+
+\bibitem{yenduri2023generative}
+{\sc\bgroup}Yenduri{\egroup}, G., {\sc\bgroup}M{\egroup}, R.,
+  {\sc\bgroup}G{\egroup}, C.~S., {\sc\bgroup}Y{\egroup}, S.,
+  {\sc\bgroup}Srivastava{\egroup}, G. et~al.
+\newblock {\em Generative Pre-trained Transformer: A Comprehensive Review on
+  Enabling Technologies, Potential Applications, Emerging Challenges, and
+  Future Directions}.
+\newblock 2023.
+
+\bibitem{zhou2008understanding}
+{\sc\bgroup}Zhou{\egroup}, T., {\sc\bgroup}Han{\egroup}, X.
+  and~{\sc\bgroup}Wang{\egroup}, B.
+\newblock {\em Towards the understanding of human dynamics}.
+\newblock 2008.
+
+\end{thebibliography}

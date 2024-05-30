@@ -1,0 +1,198 @@
+{
+  "id": "453ec3b5-0b14-4bd9-9323-f16a29e09716",
+  "version": "2.0",
+  "name": "https://www.rottentomatoes.com/",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "1b574615-a839-4cc7-ae08-7aeb42ff6380",
+    "name": "monty",
+    "commands": [{
+      "id": "63633d5f-bdd8-4176-9feb-9f695ef12b38",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b75b177-8dcf-430a-b40b-3b3c462f2503",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be3d852e-5ad0-4eb4-865f-6d591a5b28d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ordered-layout__list:nth-child(1) .visible:nth-child(6) .transparent",
+      "targets": [
+        ["css=.ordered-layout__list:nth-child(1) .visible:nth-child(6) .transparent", "css:finder"],
+        ["xpath=//section[@id='media-lists']/div/section/tiles-carousel-responsive-deprecated/tiles-carousel-responsive-item-deprecated[5]/tile-dynamic/button", "xpath:idRelative"],
+        ["xpath=//tiles-carousel-responsive-item-deprecated[5]/tile-dynamic/button", "xpath:position"],
+        ["xpath=//button[contains(.,'I Saw the TV Glow')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d9317a7-ab7f-4390-b1d5-8afd27dee2dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e518e7-e0b8-4dd3-b6f4-2daf04d21d1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-main",
+      "targets": [
+        ["id=header-main", "id"],
+        ["css=#header-main", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']", "xpath:attributes"],
+        ["xpath=//rt-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ba275ab-c18b-44d7-9542-b3201eec3cd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9767204d-10ee-4f30-8cbb-4797bcdff51c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3eb4621-b9fe-4290-b4e2-8fe9343f6b0a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "monty python"
+    }, {
+      "id": "5679d329-c8eb-468c-815b-14a24a9b15ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c07a7e9a-1722-4624-b94a-572dbe40422e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Monty Python and the Holy Grail",
+      "targets": [
+        ["linkText=Monty Python and the Holy Grail", "linkText"],
+        ["css=search-page-result:nth-child(2) search-page-media-row:nth-child(4) > .unset:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Monty Python and the Holy Grail')]", "xpath:link"],
+        ["xpath=//div[@id='search-results']/search-page-result/ul/search-page-media-row[4]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.rottentomatoes.com/m/monty_python_and_the_holy_grail')])[2]", "xpath:href"],
+        ["xpath=//search-page-media-row[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea89fea2-94d0-41c4-9476-8a43a523a033",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > rt-tab",
+      "targets": [
+        ["css=a:nth-child(5) > rt-tab", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/section/nav/modules-navigation-carousel/a[4]/rt-tab", "xpath:idRelative"],
+        ["xpath=//a[4]/rt-tab", "xpath:position"],
+        ["xpath=//rt-tab[contains(.,'Cast & Crew')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f9b6bd2-57d1-4350-9022-25fa953578cd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1540.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "937b121f-4e54-464f-acd3-f5a0290ed95d",
+      "comment": "",
+      "command": "click",
+      "target": "css=rt-link:nth-child(3) > rt-icon",
+      "targets": [
+        ["css=rt-link:nth-child(3) > rt-icon", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/rt-link[2]/rt-icon", "xpath:idRelative"],
+        ["xpath=//rt-link[2]/rt-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63909081-c694-46b5-811b-b4f7013b53de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a290558-f0fc-4127-a728-0954dd22c26d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1abe4fa9-e683-440e-92d5-ef9a18bc3927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__content",
+      "targets": [
+        ["css=.celebrity-bio__content", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div", "xpath:idRelative"],
+        ["xpath=//article/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "63a32723-65c2-40e3-b9e2-ff3dc9e9d40d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b574615-a839-4cc7-ae08-7aeb42ff6380"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

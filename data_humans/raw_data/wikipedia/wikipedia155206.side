@@ -1,0 +1,103 @@
+{
+  "id": "75fef716-f1c8-49f8-b5e9-ec249a3dc2d1",
+  "version": "2.0",
+  "name": "havel",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "3c1360f8-0fee-4d17-b451-c10a928fe337",
+    "name": "wikipedia155206",
+    "commands": [{
+      "id": "f422bb83-5464-4039-b1ec-fc33fbad7230",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f79e4544-2dd1-4fde-9ee2-e444cdf57b85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1610x1232",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eff8c52f-f736-4d1d-bd39-bf16dfaaf1a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "václav"
+    }, {
+      "id": "bf9d42be-3162-4a2a-a05a-451bc14d0183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .suggestion-title",
+      "targets": [
+        ["css=.active .suggestion-title", "css:finder"],
+        ["xpath=//div[@id='typeahead-suggestions']/div/a[2]/div/h3", "xpath:idRelative"],
+        ["xpath=//a[2]/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Václav Havel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "706648e6-141e-48c0-afd8-5c66211dcfbf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=sametové revoluce",
+      "targets": [
+        ["linkText=sametové revoluce", "linkText"],
+        ["css=p:nth-child(5) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'sametové revoluce')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Sametov%C3%A1_revoluce')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'sametové revoluce')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "868f1da6-1c2c-43b4-9627-679827841742",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=sametové revoluce",
+      "targets": [
+        ["linkText=sametové revoluce", "linkText"],
+        ["css=p:nth-child(5) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'sametové revoluce')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/Sametov%C3%A1_revoluce')]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'sametové revoluce')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e236dfe1-9133-4240-96eb-d368c1fdddac",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(11)",
+      "targets": [
+        ["css=p:nth-child(11)", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/p[5]", "xpath:idRelative"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'Václav Havel se narodil v Praze v podnikatelské a intelektuálské rodině Václava M. Havla (1897–1979) a jeho manželky Boženy, rozené Vavrečkové (1913–1970). Měl mladšího bratra Ivana M. Havla (1938–2021). Byl vnukem československého diplomata Huga Vavrečky i stavitele paláce Lucerna Vácslava Havla. Jeho strýcem byl zakladatel AB Barrandov Miloš Havel. Druhou světovou válku rodina přečkala v ústraní na Havlově na Českomoravské vrchovině.[2] Po osvobození Československa v roce 1945 navštěvoval elitní internátní školu v Poděbradech (spolu s Milošem Formanem či bratry Mašínovými), jež však byla v roce 1950 zrušena.[3] Byl členem skautského oddílu ve středisku Šipka, získal skautskou přezdívku Chrobák.[4] Po ukončení základní školní docházky měl v komunistickém režimu kvůli svému „buržoaznímu“ původu potíže získat umístění na střední škole podle vlastní volby. Proto nastoupil v roce 1951 do učebního oboru jako chemický laborant a pražskou Střední všeobecně vzdělávací školu pro pracující ve Štěpánské ulici 22 studoval večerně.[5] Maturitu složil roku 1954.[6][7] Byl přeučeným levákem.[8]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bc1a4c6a-dba1-44b1-826f-7ef94afb1bd0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3c1360f8-0fee-4d17-b451-c10a928fe337"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}

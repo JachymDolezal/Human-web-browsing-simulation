@@ -1,0 +1,160 @@
+{
+  "id": "658041b5-7b66-4750-9bf3-88af5f0724f9",
+  "version": "2.0",
+  "name": "jerry",
+  "url": "https://www.rottentomatoes.com",
+  "tests": [{
+    "id": "c35d1df3-755f-424f-97f3-1b59a2cf840e",
+    "name": "rottentomatoes",
+    "commands": [{
+      "id": "b399cb5c-8f87-4ca5-864e-9cc6edefab57",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e95cc71-8d14-49bc-afed-597d21be20c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59882fe4-a0eb-48f6-aeab-00851beaa8a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f82ddf-d452-43c8-8f39-b5201674d635",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-text",
+      "targets": [
+        ["css=.search-text", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-controls/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "monty python holy "
+    }, {
+      "id": "28f89a39-4330-401e-b883-062144c717b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=search-algolia-results-category:nth-child(1) li:nth-child(2) search-algolia-results-item-deprecated",
+      "targets": [
+        ["css=search-algolia-results-category:nth-child(1) li:nth-child(2) search-algolia-results-item-deprecated", "css:finder"],
+        ["xpath=//rt-header[@id='header-main']/search-algolia/search-algolia-results/search-algolia-results-category/ul/li[2]/a/search-algolia-results-item-deprecated", "xpath:idRelative"],
+        ["xpath=//li[2]/a/search-algolia-results-item-deprecated", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ae4851-47b6-416e-b290-22bc34ab4886",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,448)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7bff5c1-2823-4c25-9603-9ffc7144e47b",
+      "comment": "",
+      "command": "click",
+      "target": "css=drawer-more:nth-child(10) > rt-link:nth-child(2)",
+      "targets": [
+        ["css=drawer-more:nth-child(10) > rt-link:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div/media-scorecard/drawer-more/rt-link", "xpath:idRelative"],
+        ["xpath=//drawer-more/rt-link", "xpath:position"],
+        ["xpath=//rt-link[contains(.,'Read More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33f9b8ed-d997-40d9-abe4-e83a4512671b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5) > rt-tab",
+      "targets": [
+        ["css=a:nth-child(5) > rt-tab", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/section/nav/modules-navigation-carousel/a[4]/rt-tab", "xpath:idRelative"],
+        ["xpath=//a[4]/rt-tab", "xpath:position"],
+        ["xpath=//rt-tab[contains(.,'Cast & Crew')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "923fe9bb-8c0c-456b-8fd3-c6911af6a772",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) .name",
+      "targets": [
+        ["css=a:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='modules-wrap']/div[5]/section/div[2]/drawer-more/div/a/tile-dynamic/div/p", "xpath:idRelative"],
+        ["xpath=//div/a/tile-dynamic/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79546340-5d52-4f8c-8311-7685822f4691",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__content",
+      "targets": [
+        ["css=.celebrity-bio__content", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div", "xpath:idRelative"],
+        ["xpath=//article/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f2b720-acb3-4cbc-8b3a-96e4f927d9bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__h1",
+      "targets": [
+        ["css=.celebrity-bio__h1", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bcdb084-e32a-41ae-ac76-43c9492694ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.celebrity-bio__h1",
+      "targets": [
+        ["css=.celebrity-bio__h1", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "501e09fd-fece-432e-9259-da5dfee7f075",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.celebrity-bio__h1",
+      "targets": [
+        ["css=.celebrity-bio__h1", "css:finder"],
+        ["xpath=//div[@id='celebrity']/article/section/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Terry Gilliam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "67707c60-2914-4017-8db3-4d9411f33ead",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c35d1df3-755f-424f-97f3-1b59a2cf840e"]
+  }],
+  "urls": ["https://www.rottentomatoes.com/"],
+  "plugins": []
+}

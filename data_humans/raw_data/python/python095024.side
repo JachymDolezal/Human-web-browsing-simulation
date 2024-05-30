@@ -1,0 +1,65 @@
+{
+  "id": "6abcb19c-5021-4770-b840-0ca6177509e1",
+  "version": "2.0",
+  "name": "python",
+  "url": "https://www.python.org/",
+  "tests": [{
+    "id": "fd884c05-91aa-4e49-90fd-9f5b7b1cbcde",
+    "name": "python095024",
+    "commands": [{
+      "id": "84d69785-3185-45e8-a47b-90685d786cae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.python.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f0e8495-6364-4e96-b2ce-0e343079f3fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10c96f42-282f-4b27-a201-fd5afb883a98",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events",
+      "targets": [
+        ["linkText=Events", "linkText"],
+        ["css=#events > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events')]", "xpath:link"],
+        ["xpath=//li[@id='events']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "738eb0f7-9856-4463-9a85-c58a22a084ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic",
+      "targets": [
+        ["linkText=PyLadies Amsterdam: An Introduction to RAG with Elastic", "linkText"],
+        ["css=li:nth-child(1) > .event-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/section/div/div/ul/li/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events/python-user-group/1756/')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PyLadies Amsterdam: An Introduction to RAG with Elastic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2485a883-5952-4333-8ae5-edb67a6a9ba0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd884c05-91aa-4e49-90fd-9f5b7b1cbcde"]
+  }],
+  "urls": [],
+  "plugins": []
+}
